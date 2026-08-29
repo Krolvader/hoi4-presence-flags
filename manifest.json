@@ -1,10 +1,993 @@
 {
   "schema": 1,
-  "source": {
-    "mod_name": "Formable Nations",
-    "remote_file_id": "2870292087"
-  },
+  "sources": [
+    {
+      "name": "Formable Nations",
+      "remote_file_id": "2870292087"
+    },
+    {
+      "name": "Road to 56"
+    }
+  ],
   "flags": {
+    "ABT": {
+      "communism": "flags/ABT/communism.png",
+      "democratic": "flags/ABT/democratic.png",
+      "fascism": "flags/ABT/fascism.png",
+      "neutrality": "flags/ABT/neutrality.png"
+    },
+    "ACN": {
+      "communism": "flags/ACN/communism.png",
+      "democratic": "flags/ACN/democratic.png",
+      "fascism": "flags/ACN/fascism.png",
+      "neutrality": "flags/ACN/neutrality.png"
+    },
+    "ADR": {
+      "communism": "flags/ADR/communism.png",
+      "democratic": "flags/ADR/democratic.png",
+      "fascism": "flags/ADR/fascism.png",
+      "neutrality": "flags/ADR/neutrality.png"
+    },
+    "ADU": {
+      "communism": "flags/ADU/communism.png",
+      "democratic": "flags/ADU/democratic.png",
+      "fascism": "flags/ADU/fascism.png",
+      "neutrality": "flags/ADU/neutrality.png"
+    },
+    "AFG": {
+      "communism": "flags/AFG/communism.png",
+      "democratic": "flags/AFG/democratic.png",
+      "fascism": "flags/AFG/fascism.png",
+      "neutrality": "flags/AFG/neutrality.png"
+    },
+    "AFG_AMA": {
+      "communism": "flags/AFG_AMA/communism.png",
+      "democratic": "flags/AFG_AMA/democratic.png",
+      "fascism": "flags/AFG_AMA/fascism.png",
+      "neutrality": "flags/AFG_AMA/neutrality.png"
+    },
+    "AFG_BUK_emirate": {
+      "neutrality": "flags/AFG_BUK_emirate/neutrality.png"
+    },
+    "AFG_EMI": {
+      "communism": "flags/AFG_EMI/communism.png",
+      "democratic": "flags/AFG_EMI/democratic.png",
+      "fascism": "flags/AFG_EMI/fascism.png",
+      "neutrality": "flags/AFG_EMI/neutrality.png"
+    },
+    "AFG_JAM": {
+      "communism": "flags/AFG_JAM/communism.png",
+      "democratic": "flags/AFG_JAM/democratic.png",
+      "fascism": "flags/AFG_JAM/fascism.png",
+      "neutrality": "flags/AFG_JAM/neutrality.png"
+    },
+    "AFG_NRP": {
+      "communism": "flags/AFG_NRP/communism.png",
+      "democratic": "flags/AFG_NRP/democratic.png",
+      "fascism": "flags/AFG_NRP/fascism.png",
+      "neutrality": "flags/AFG_NRP/neutrality.png"
+    },
+    "AFG_PAR": {
+      "communism": "flags/AFG_PAR/communism.png",
+      "democratic": "flags/AFG_PAR/democratic.png",
+      "fascism": "flags/AFG_PAR/fascism.png",
+      "neutrality": "flags/AFG_PAR/neutrality.png"
+    },
+    "AFG_PSH": {
+      "communism": "flags/AFG_PSH/communism.png",
+      "democratic": "flags/AFG_PSH/democratic.png",
+      "fascism": "flags/AFG_PSH/fascism.png",
+      "neutrality": "flags/AFG_PSH/neutrality.png"
+    },
+    "AFG_RAS": {
+      "communism": "flags/AFG_RAS/communism.png",
+      "democratic": "flags/AFG_RAS/democratic.png",
+      "fascism": "flags/AFG_RAS/fascism.png",
+      "neutrality": "flags/AFG_RAS/neutrality.png"
+    },
+    "AHV": {
+      "communism": "flags/AHV/communism.png",
+      "democratic": "flags/AHV/democratic.png",
+      "fascism": "flags/AHV/fascism.png",
+      "neutrality": "flags/AHV/neutrality.png"
+    },
+    "ALB": {
+      "communism": "flags/ALB/communism.png",
+      "democratic": "flags/ALB/democratic.png",
+      "fascism": "flags/ALB/fascism.png",
+      "neutrality": "flags/ALB/neutrality.png"
+    },
+    "ALG": {
+      "communism": "flags/ALG/communism.png",
+      "democratic": "flags/ALG/democratic.png",
+      "fascism": "flags/ALG/fascism.png",
+      "neutrality": "flags/ALG/neutrality.png"
+    },
+    "ALS": {
+      "communism": "flags/ALS/communism.png",
+      "democratic": "flags/ALS/democratic.png",
+      "fascism": "flags/ALS/fascism.png",
+      "neutrality": "flags/ALS/neutrality.png"
+    },
+    "ALS_GER": {
+      "neutrality": "flags/ALS_GER/neutrality.png"
+    },
+    "ANCAP": {
+      "default": "flags/ANCAP/default.png"
+    },
+    "ANG": {
+      "communism": "flags/ANG/communism.png",
+      "democratic": "flags/ANG/democratic.png",
+      "fascism": "flags/ANG/fascism.png",
+      "neutrality": "flags/ANG/neutrality.png"
+    },
+    "APRA": {
+      "communism": "flags/APRA/communism.png"
+    },
+    "ARG": {
+      "communism": "flags/ARG/communism.png",
+      "democratic": "flags/ARG/democratic.png",
+      "fascism": "flags/ARG/fascism.png",
+      "neutrality": "flags/ARG/neutrality.png"
+    },
+    "ARG_EMP": {
+      "neutrality": "flags/ARG_EMP/neutrality.png"
+    },
+    "ARM": {
+      "communism": "flags/ARM/communism.png",
+      "democratic": "flags/ARM/democratic.png",
+      "fascism": "flags/ARM/fascism.png",
+      "neutrality": "flags/ARM/neutrality.png"
+    },
+    "ARM_FRA": {
+      "default": "flags/ARM_FRA/default.png",
+      "communism": "flags/ARM_FRA/communism.png"
+    },
+    "ARM_UK": {
+      "default": "flags/ARM_UK/default.png",
+      "communism": "flags/ARM_UK/communism.png"
+    },
+    "ARM_reichskommissariat": {
+      "fascism": "flags/ARM_reichskommissariat/fascism.png"
+    },
+    "AST": {
+      "communism": "flags/AST/communism.png",
+      "democratic": "flags/AST/democratic.png",
+      "fascism": "flags/AST/fascism.png",
+      "neutrality": "flags/AST/neutrality.png"
+    },
+    "AST_ALT": {
+      "fascism": "flags/AST_ALT/fascism.png"
+    },
+    "AST_JAP": {
+      "fascism": "flags/AST_JAP/fascism.png",
+      "neutrality": "flags/AST_JAP/neutrality.png"
+    },
+    "ATJ_HOL": {
+      "default": "flags/ATJ_HOL/default.png"
+    },
+    "AUS": {
+      "communism": "flags/AUS/communism.png",
+      "democratic": "flags/AUS/democratic.png",
+      "fascism": "flags/AUS/fascism.png",
+      "neutrality": "flags/AUS/neutrality.png"
+    },
+    "AUSHUN": {
+      "communism": "flags/AUSHUN/communism.png",
+      "democratic": "flags/AUSHUN/democratic.png",
+      "fascism": "flags/AUSHUN/fascism.png",
+      "neutrality": "flags/AUSHUN/neutrality.png"
+    },
+    "AUS_CISLEITHANIA": {
+      "communism": "flags/AUS_CISLEITHANIA/communism.png",
+      "democratic": "flags/AUS_CISLEITHANIA/democratic.png"
+    },
+    "AUS_EMPIRE": {
+      "democratic": "flags/AUS_EMPIRE/democratic.png"
+    },
+    "AUS_GERMANY": {
+      "communism": "flags/AUS_GERMANY/communism.png",
+      "democratic": "flags/AUS_GERMANY/democratic.png",
+      "fascism": "flags/AUS_GERMANY/fascism.png"
+    },
+    "AUS_NAZI": {
+      "fascism": "flags/AUS_NAZI/fascism.png"
+    },
+    "AUS_OSTMARK": {
+      "fascism": "flags/AUS_OSTMARK/fascism.png"
+    },
+    "AUS_REPUBLIC": {
+      "neutrality": "flags/AUS_REPUBLIC/neutrality.png"
+    },
+    "AUS_heimwehr": {
+      "fascism": "flags/AUS_heimwehr/fascism.png"
+    },
+    "AUS_south_germany": {
+      "default": "flags/AUS_south_germany/default.png"
+    },
+    "AZR": {
+      "communism": "flags/AZR/communism.png",
+      "democratic": "flags/AZR/democratic.png",
+      "fascism": "flags/AZR/fascism.png",
+      "neutrality": "flags/AZR/neutrality.png"
+    },
+    "BAD": {
+      "communism": "flags/BAD/communism.png",
+      "democratic": "flags/BAD/democratic.png",
+      "fascism": "flags/BAD/fascism.png",
+      "neutrality": "flags/BAD/neutrality.png"
+    },
+    "BAH": {
+      "communism": "flags/BAH/communism.png",
+      "democratic": "flags/BAH/democratic.png",
+      "fascism": "flags/BAH/fascism.png",
+      "neutrality": "flags/BAH/neutrality.png"
+    },
+    "BAN": {
+      "communism": "flags/BAN/communism.png",
+      "democratic": "flags/BAN/democratic.png",
+      "fascism": "flags/BAN/fascism.png",
+      "neutrality": "flags/BAN/neutrality.png"
+    },
+    "BAN_East_Bengal": {
+      "default": "flags/BAN_East_Bengal/default.png",
+      "communism": "flags/BAN_East_Bengal/communism.png"
+    },
+    "BAS": {
+      "communism": "flags/BAS/communism.png",
+      "democratic": "flags/BAS/democratic.png",
+      "fascism": "flags/BAS/fascism.png",
+      "neutrality": "flags/BAS/neutrality.png"
+    },
+    "BAY": {
+      "communism": "flags/BAY/communism.png",
+      "democratic": "flags/BAY/democratic.png",
+      "fascism": "flags/BAY/fascism.png",
+      "neutrality": "flags/BAY/neutrality.png"
+    },
+    "BCO": {
+      "communism": "flags/BCO/communism.png",
+      "democratic": "flags/BCO/democratic.png",
+      "fascism": "flags/BCO/fascism.png",
+      "neutrality": "flags/BCO/neutrality.png"
+    },
+    "BEL": {
+      "communism": "flags/BEL/communism.png",
+      "democratic": "flags/BEL/democratic.png",
+      "fascism": "flags/BEL/fascism.png",
+      "neutrality": "flags/BEL/neutrality.png"
+    },
+    "BEL2": {
+      "fascism": "flags/BEL2/fascism.png"
+    },
+    "BEL3": {
+      "fascism": "flags/BEL3/fascism.png"
+    },
+    "BEL3_GER": {
+      "fascism": "flags/BEL3_GER/fascism.png"
+    },
+    "BEL4": {
+      "fascism": "flags/BEL4/fascism.png"
+    },
+    "BEL_REX": {
+      "fascism": "flags/BEL_REX/fascism.png"
+    },
+    "BEL_reichskommissariat": {
+      "fascism": "flags/BEL_reichskommissariat/fascism.png"
+    },
+    "BHR": {
+      "communism": "flags/BHR/communism.png",
+      "democratic": "flags/BHR/democratic.png",
+      "fascism": "flags/BHR/fascism.png",
+      "neutrality": "flags/BHR/neutrality.png"
+    },
+    "BHU": {
+      "communism": "flags/BHU/communism.png",
+      "democratic": "flags/BHU/democratic.png",
+      "fascism": "flags/BHU/fascism.png",
+      "neutrality": "flags/BHU/neutrality.png"
+    },
+    "BLR": {
+      "communism": "flags/BLR/communism.png",
+      "democratic": "flags/BLR/democratic.png",
+      "fascism": "flags/BLR/fascism.png",
+      "neutrality": "flags/BLR/neutrality.png"
+    },
+    "BLR_GER": {
+      "fascism": "flags/BLR_GER/fascism.png"
+    },
+    "BLR_reichskommissariat": {
+      "fascism": "flags/BLR_reichskommissariat/fascism.png"
+    },
+    "BLZ": {
+      "communism": "flags/BLZ/communism.png",
+      "democratic": "flags/BLZ/democratic.png",
+      "fascism": "flags/BLZ/fascism.png",
+      "neutrality": "flags/BLZ/neutrality.png"
+    },
+    "BOL": {
+      "communism": "flags/BOL/communism.png",
+      "democratic": "flags/BOL/democratic.png",
+      "fascism": "flags/BOL/fascism.png",
+      "neutrality": "flags/BOL/neutrality.png"
+    },
+    "BOS": {
+      "communism": "flags/BOS/communism.png",
+      "democratic": "flags/BOS/democratic.png",
+      "fascism": "flags/BOS/fascism.png",
+      "neutrality": "flags/BOS/neutrality.png"
+    },
+    "BOT": {
+      "communism": "flags/BOT/communism.png",
+      "democratic": "flags/BOT/democratic.png",
+      "fascism": "flags/BOT/fascism.png",
+      "neutrality": "flags/BOT/neutrality.png"
+    },
+    "BRA": {
+      "communism": "flags/BRA/communism.png",
+      "democratic": "flags/BRA/democratic.png",
+      "fascism": "flags/BRA/fascism.png",
+      "neutrality": "flags/BRA/neutrality.png"
+    },
+    "BRA_IDB": {
+      "default": "flags/BRA_IDB/default.png",
+      "communism": "flags/BRA_IDB/communism.png"
+    },
+    "BRA_PUPPET_COSTAG": {
+      "default": "flags/BRA_PUPPET_COSTAG/default.png"
+    },
+    "BRA_comunismo_republica_ctag": {
+      "default": "flags/BRA_comunismo_republica_ctag/default.png"
+    },
+    "BRA_democracia_republica_ctag": {
+      "default": "flags/BRA_democracia_republica_ctag/default.png"
+    },
+    "BRA_fascismo_republica_ctag": {
+      "default": "flags/BRA_fascismo_republica_ctag/default.png"
+    },
+    "BRA_imperio_ctag": {
+      "default": "flags/BRA_imperio_ctag/default.png"
+    },
+    "BRA_neutro_republica_ctag": {
+      "default": "flags/BRA_neutro_republica_ctag/default.png"
+    },
+    "BRB": {
+      "communism": "flags/BRB/communism.png",
+      "democratic": "flags/BRB/democratic.png",
+      "fascism": "flags/BRB/fascism.png",
+      "neutrality": "flags/BRB/neutrality.png"
+    },
+    "BRD": {
+      "communism": "flags/BRD/communism.png",
+      "democratic": "flags/BRD/democratic.png",
+      "fascism": "flags/BRD/fascism.png",
+      "neutrality": "flags/BRD/neutrality.png"
+    },
+    "BRI": {
+      "communism": "flags/BRI/communism.png",
+      "democratic": "flags/BRI/democratic.png",
+      "fascism": "flags/BRI/fascism.png",
+      "neutrality": "flags/BRI/neutrality.png"
+    },
+    "BRM": {
+      "communism": "flags/BRM/communism.png",
+      "democratic": "flags/BRM/democratic.png",
+      "fascism": "flags/BRM/fascism.png",
+      "neutrality": "flags/BRM/neutrality.png"
+    },
+    "BRM_FB": {
+      "communism": "flags/BRM_FB/communism.png",
+      "neutrality": "flags/BRM_FB/neutrality.png"
+    },
+    "BRN": {
+      "communism": "flags/BRN/communism.png",
+      "democratic": "flags/BRN/democratic.png",
+      "fascism": "flags/BRN/fascism.png",
+      "neutrality": "flags/BRN/neutrality.png"
+    },
+    "BSK": {
+      "democratic": "flags/BSK/democratic.png"
+    },
+    "BUK": {
+      "fascism": "flags/BUK/fascism.png",
+      "neutrality": "flags/BUK/neutrality.png"
+    },
+    "BUL": {
+      "communism": "flags/BUL/communism.png",
+      "democratic": "flags/BUL/democratic.png",
+      "fascism": "flags/BUL/fascism.png",
+      "neutrality": "flags/BUL/neutrality.png"
+    },
+    "BUL_republican": {
+      "default": "flags/BUL_republican/default.png"
+    },
+    "BYA": {
+      "communism": "flags/BYA/communism.png",
+      "democratic": "flags/BYA/democratic.png",
+      "fascism": "flags/BYA/fascism.png",
+      "neutrality": "flags/BYA/neutrality.png"
+    },
+    "CAB": {
+      "communism": "flags/CAB/communism.png",
+      "democratic": "flags/CAB/democratic.png",
+      "fascism": "flags/CAB/fascism.png",
+      "neutrality": "flags/CAB/neutrality.png"
+    },
+    "CAM": {
+      "communism": "flags/CAM/communism.png",
+      "democratic": "flags/CAM/democratic.png",
+      "fascism": "flags/CAM/fascism.png",
+      "neutrality": "flags/CAM/neutrality.png"
+    },
+    "CAM_FRA": {
+      "democratic": "flags/CAM_FRA/democratic.png",
+      "fascism": "flags/CAM_FRA/fascism.png",
+      "neutrality": "flags/CAM_FRA/neutrality.png"
+    },
+    "CAN": {
+      "communism": "flags/CAN/communism.png",
+      "democratic": "flags/CAN/democratic.png",
+      "fascism": "flags/CAN/fascism.png",
+      "neutrality": "flags/CAN/neutrality.png"
+    },
+    "CAN_ALY": {
+      "default": "flags/CAN_ALY/default.png",
+      "communism": "flags/CAN_ALY/communism.png",
+      "democratic": "flags/CAN_ALY/democratic.png",
+      "neutrality": "flags/CAN_ALY/neutrality.png"
+    },
+    "CAN_CUF": {
+      "fascism": "flags/CAN_CUF/fascism.png"
+    },
+    "CAN_FRA": {
+      "democratic": "flags/CAN_FRA/democratic.png"
+    },
+    "CAN_UK": {
+      "default": "flags/CAN_UK/default.png",
+      "communism": "flags/CAN_UK/communism.png",
+      "democratic": "flags/CAN_UK/democratic.png",
+      "neutrality": "flags/CAN_UK/neutrality.png"
+    },
+    "CAN_north_america_dominion": {
+      "default": "flags/CAN_north_america_dominion/default.png",
+      "communism": "flags/CAN_north_america_dominion/communism.png"
+    },
+    "CAP": {
+      "communism": "flags/CAP/communism.png",
+      "democratic": "flags/CAP/democratic.png",
+      "fascism": "flags/CAP/fascism.png",
+      "neutrality": "flags/CAP/neutrality.png"
+    },
+    "CAR": {
+      "communism": "flags/CAR/communism.png",
+      "democratic": "flags/CAR/democratic.png",
+      "fascism": "flags/CAR/fascism.png",
+      "neutrality": "flags/CAR/neutrality.png"
+    },
+    "CAT": {
+      "communism": "flags/CAT/communism.png",
+      "democratic": "flags/CAT/democratic.png",
+      "fascism": "flags/CAT/fascism.png",
+      "neutrality": "flags/CAT/neutrality.png"
+    },
+    "CAT_aragon": {
+      "neutrality": "flags/CAT_aragon/neutrality.png"
+    },
+    "CAU": {
+      "communism": "flags/CAU/communism.png",
+      "democratic": "flags/CAU/democratic.png",
+      "fascism": "flags/CAU/fascism.png",
+      "neutrality": "flags/CAU/neutrality.png"
+    },
+    "CAY": {
+      "communism": "flags/CAY/communism.png",
+      "democratic": "flags/CAY/democratic.png",
+      "fascism": "flags/CAY/fascism.png",
+      "neutrality": "flags/CAY/neutrality.png"
+    },
+    "CEL_UNIFIED": {
+      "default": "flags/CEL_UNIFIED/default.png",
+      "communism": "flags/CEL_UNIFIED/communism.png"
+    },
+    "CHD": {
+      "communism": "flags/CHD/communism.png",
+      "democratic": "flags/CHD/democratic.png",
+      "fascism": "flags/CHD/fascism.png",
+      "neutrality": "flags/CHD/neutrality.png"
+    },
+    "CHI": {
+      "communism": "flags/CHI/communism.png",
+      "democratic": "flags/CHI/democratic.png",
+      "fascism": "flags/CHI/fascism.png",
+      "neutrality": "flags/CHI/neutrality.png"
+    },
+    "CHI_HK": {
+      "communism": "flags/CHI_HK/communism.png",
+      "democratic": "flags/CHI_HK/democratic.png",
+      "fascism": "flags/CHI_HK/fascism.png",
+      "neutrality": "flags/CHI_HK/neutrality.png"
+    },
+    "CHI_HK_UK": {
+      "communism": "flags/CHI_HK_UK/communism.png",
+      "democratic": "flags/CHI_HK_UK/democratic.png",
+      "fascism": "flags/CHI_HK_UK/fascism.png",
+      "neutrality": "flags/CHI_HK_UK/neutrality.png"
+    },
+    "CHI_MAC": {
+      "communism": "flags/CHI_MAC/communism.png",
+      "democratic": "flags/CHI_MAC/democratic.png",
+      "fascism": "flags/CHI_MAC/fascism.png",
+      "neutrality": "flags/CHI_MAC/neutrality.png"
+    },
+    "CHI_MAC_POR": {
+      "default": "flags/CHI_MAC_POR/default.png",
+      "communism": "flags/CHI_MAC_POR/communism.png"
+    },
+    "CHI_fed": {
+      "democratic": "flags/CHI_fed/democratic.png"
+    },
+    "CHI_lkmt": {
+      "communism": "flags/CHI_lkmt/communism.png"
+    },
+    "CHI_warlord_PRC": {
+      "communism": "flags/CHI_warlord_PRC/communism.png",
+      "democratic": "flags/CHI_warlord_PRC/democratic.png",
+      "fascism": "flags/CHI_warlord_PRC/fascism.png",
+      "neutrality": "flags/CHI_warlord_PRC/neutrality.png"
+    },
+    "CHI_warlord_leader": {
+      "default": "flags/CHI_warlord_leader/default.png",
+      "communism": "flags/CHI_warlord_leader/communism.png"
+    },
+    "CHL": {
+      "communism": "flags/CHL/communism.png",
+      "democratic": "flags/CHL/democratic.png",
+      "fascism": "flags/CHL/fascism.png",
+      "neutrality": "flags/CHL/neutrality.png"
+    },
+    "CHT": {
+      "communism": "flags/CHT/communism.png",
+      "democratic": "flags/CHT/democratic.png",
+      "fascism": "flags/CHT/fascism.png",
+      "neutrality": "flags/CHT/neutrality.png"
+    },
+    "CHU": {
+      "neutrality": "flags/CHU/neutrality.png"
+    },
+    "CIR_UNIFIED": {
+      "default": "flags/CIR_UNIFIED/default.png",
+      "communism": "flags/CIR_UNIFIED/communism.png"
+    },
+    "CKSclique": {
+      "default": "flags/CKSclique/default.png"
+    },
+    "CMR": {
+      "communism": "flags/CMR/communism.png",
+      "democratic": "flags/CMR/democratic.png",
+      "fascism": "flags/CMR/fascism.png",
+      "neutrality": "flags/CMR/neutrality.png"
+    },
+    "CNR": {
+      "communism": "flags/CNR/communism.png",
+      "democratic": "flags/CNR/democratic.png",
+      "fascism": "flags/CNR/fascism.png",
+      "neutrality": "flags/CNR/neutrality.png"
+    },
+    "COG": {
+      "communism": "flags/COG/communism.png",
+      "democratic": "flags/COG/democratic.png",
+      "fascism": "flags/COG/fascism.png",
+      "neutrality": "flags/COG/neutrality.png"
+    },
+    "COG_communism_experimental": {
+      "default": "flags/COG_communism_experimental/default.png"
+    },
+    "COL": {
+      "communism": "flags/COL/communism.png",
+      "democratic": "flags/COL/democratic.png",
+      "fascism": "flags/COL/fascism.png",
+      "neutrality": "flags/COL/neutrality.png"
+    },
+    "COL_EMP": {
+      "neutrality": "flags/COL_EMP/neutrality.png"
+    },
+    "COM": {
+      "communism": "flags/COM/communism.png",
+      "democratic": "flags/COM/democratic.png",
+      "fascism": "flags/COM/fascism.png",
+      "neutrality": "flags/COM/neutrality.png"
+    },
+    "COR": {
+      "communism": "flags/COR/communism.png",
+      "democratic": "flags/COR/democratic.png",
+      "fascism": "flags/COR/fascism.png",
+      "neutrality": "flags/COR/neutrality.png"
+    },
+    "COS": {
+      "communism": "flags/COS/communism.png",
+      "democratic": "flags/COS/democratic.png",
+      "fascism": "flags/COS/fascism.png",
+      "neutrality": "flags/COS/neutrality.png"
+    },
+    "CRC": {
+      "communism": "flags/CRC/communism.png",
+      "democratic": "flags/CRC/democratic.png",
+      "fascism": "flags/CRC/fascism.png",
+      "neutrality": "flags/CRC/neutrality.png"
+    },
+    "CRCA": {
+      "communism": "flags/CRCA/communism.png",
+      "democratic": "flags/CRCA/democratic.png",
+      "fascism": "flags/CRCA/fascism.png",
+      "neutrality": "flags/CRCA/neutrality.png"
+    },
+    "CRI": {
+      "communism": "flags/CRI/communism.png",
+      "democratic": "flags/CRI/democratic.png",
+      "fascism": "flags/CRI/fascism.png",
+      "neutrality": "flags/CRI/neutrality.png"
+    },
+    "CRO": {
+      "communism": "flags/CRO/communism.png",
+      "democratic": "flags/CRO/democratic.png",
+      "fascism": "flags/CRO/fascism.png",
+      "neutrality": "flags/CRO/neutrality.png"
+    },
+    "CSA": {
+      "communism": "flags/CSA/communism.png",
+      "democratic": "flags/CSA/democratic.png",
+      "fascism": "flags/CSA/fascism.png",
+      "neutrality": "flags/CSA/neutrality.png"
+    },
+    "CSA_ALT1": {
+      "fascism": "flags/CSA_ALT1/fascism.png",
+      "neutrality": "flags/CSA_ALT1/neutrality.png"
+    },
+    "CSA_ALT2": {
+      "fascism": "flags/CSA_ALT2/fascism.png",
+      "neutrality": "flags/CSA_ALT2/neutrality.png"
+    },
+    "CUB": {
+      "communism": "flags/CUB/communism.png",
+      "democratic": "flags/CUB/democratic.png",
+      "fascism": "flags/CUB/fascism.png",
+      "neutrality": "flags/CUB/neutrality.png"
+    },
+    "CYP": {
+      "communism": "flags/CYP/communism.png",
+      "democratic": "flags/CYP/democratic.png",
+      "fascism": "flags/CYP/fascism.png",
+      "neutrality": "flags/CYP/neutrality.png"
+    },
+    "CYP_TUR": {
+      "default": "flags/CYP_TUR/default.png",
+      "fascism": "flags/CYP_TUR/fascism.png",
+      "neutrality": "flags/CYP_TUR/neutrality.png"
+    },
+    "CYP_UK": {
+      "default": "flags/CYP_UK/default.png",
+      "communism": "flags/CYP_UK/communism.png",
+      "neutrality": "flags/CYP_UK/neutrality.png"
+    },
+    "CZE": {
+      "communism": "flags/CZE/communism.png",
+      "democratic": "flags/CZE/democratic.png",
+      "fascism": "flags/CZE/fascism.png",
+      "neutrality": "flags/CZE/neutrality.png"
+    },
+    "CZESLO": {
+      "communism": "flags/CZESLO/communism.png",
+      "democratic": "flags/CZESLO/democratic.png",
+      "fascism": "flags/CZESLO/fascism.png",
+      "neutrality": "flags/CZESLO/neutrality.png"
+    },
+    "CZE_ONLY": {
+      "neutrality": "flags/CZE_ONLY/neutrality.png"
+    },
+    "CZE_VLK": {
+      "fascism": "flags/CZE_VLK/fascism.png"
+    },
+    "CZE_reichskommissariat": {
+      "fascism": "flags/CZE_reichskommissariat/fascism.png"
+    },
+    "CZE_westslavia": {
+      "neutrality": "flags/CZE_westslavia/neutrality.png"
+    },
+    "CaharCouncilCtag": {
+      "neutrality": "flags/CaharCouncilCtag/neutrality.png"
+    },
+    "CentralGov": {
+      "default": "flags/CentralGov/default.png",
+      "communism": "flags/CentralGov/communism.png"
+    },
+    "DAH": {
+      "communism": "flags/DAH/communism.png",
+      "democratic": "flags/DAH/democratic.png",
+      "fascism": "flags/DAH/fascism.png",
+      "neutrality": "flags/DAH/neutrality.png"
+    },
+    "DAR": {
+      "communism": "flags/DAR/communism.png",
+      "democratic": "flags/DAR/democratic.png",
+      "fascism": "flags/DAR/fascism.png",
+      "neutrality": "flags/DAR/neutrality.png"
+    },
+    "DDR": {
+      "communism": "flags/DDR/communism.png",
+      "democratic": "flags/DDR/democratic.png",
+      "fascism": "flags/DDR/fascism.png",
+      "neutrality": "flags/DDR/neutrality.png"
+    },
+    "DEN": {
+      "communism": "flags/DEN/communism.png",
+      "democratic": "flags/DEN/democratic.png",
+      "fascism": "flags/DEN/fascism.png",
+      "neutrality": "flags/DEN/neutrality.png"
+    },
+    "DEN_COM": {
+      "default": "flags/DEN_COM/default.png"
+    },
+    "DEN_DANELAW": {
+      "communism": "flags/DEN_DANELAW/communism.png",
+      "democratic": "flags/DEN_DANELAW/democratic.png",
+      "fascism": "flags/DEN_DANELAW/fascism.png",
+      "neutrality": "flags/DEN_DANELAW/neutrality.png"
+    },
+    "DEN_NORTH_SEA": {
+      "communism": "flags/DEN_NORTH_SEA/communism.png",
+      "democratic": "flags/DEN_NORTH_SEA/democratic.png",
+      "fascism": "flags/DEN_NORTH_SEA/fascism.png",
+      "neutrality": "flags/DEN_NORTH_SEA/neutrality.png"
+    },
+    "DEN_RUS": {
+      "fascism": "flags/DEN_RUS/fascism.png",
+      "neutrality": "flags/DEN_RUS/neutrality.png"
+    },
+    "DEN_SCA": {
+      "default": "flags/DEN_SCA/default.png",
+      "communism": "flags/DEN_SCA/communism.png",
+      "fascism": "flags/DEN_SCA/fascism.png"
+    },
+    "DJI": {
+      "communism": "flags/DJI/communism.png",
+      "democratic": "flags/DJI/democratic.png",
+      "fascism": "flags/DJI/fascism.png",
+      "neutrality": "flags/DJI/neutrality.png"
+    },
+    "DMN": {
+      "communism": "flags/DMN/communism.png",
+      "democratic": "flags/DMN/democratic.png",
+      "fascism": "flags/DMN/fascism.png",
+      "neutrality": "flags/DMN/neutrality.png"
+    },
+    "DNZ": {
+      "communism": "flags/DNZ/communism.png",
+      "democratic": "flags/DNZ/democratic.png",
+      "fascism": "flags/DNZ/fascism.png",
+      "neutrality": "flags/DNZ/neutrality.png"
+    },
+    "DOM": {
+      "communism": "flags/DOM/communism.png",
+      "democratic": "flags/DOM/democratic.png",
+      "fascism": "flags/DOM/fascism.png",
+      "neutrality": "flags/DOM/neutrality.png"
+    },
+    "DON": {
+      "communism": "flags/DON/communism.png",
+      "democratic": "flags/DON/democratic.png",
+      "fascism": "flags/DON/fascism.png",
+      "neutrality": "flags/DON/neutrality.png"
+    },
+    "DOU": {
+      "communism": "flags/DOU/communism.png",
+      "democratic": "flags/DOU/democratic.png",
+      "fascism": "flags/DOU/fascism.png",
+      "neutrality": "flags/DOU/neutrality.png"
+    },
+    "DOU_CONDOMINIUM": {
+      "default": "flags/DOU_CONDOMINIUM/default.png",
+      "communism": "flags/DOU_CONDOMINIUM/communism.png"
+    },
+    "DOU_GER": {
+      "fascism": "flags/DOU_GER/fascism.png"
+    },
+    "EAU_UNITED": {
+      "default": "flags/EAU_UNITED/default.png"
+    },
+    "ECR": {
+      "default": "flags/ECR/default.png"
+    },
+    "ECU": {
+      "communism": "flags/ECU/communism.png",
+      "democratic": "flags/ECU/democratic.png",
+      "fascism": "flags/ECU/fascism.png",
+      "neutrality": "flags/ECU/neutrality.png"
+    },
+    "EFR": {
+      "communism": "flags/EFR/communism.png",
+      "democratic": "flags/EFR/democratic.png",
+      "fascism": "flags/EFR/fascism.png",
+      "neutrality": "flags/EFR/neutrality.png"
+    },
+    "EGY": {
+      "communism": "flags/EGY/communism.png",
+      "democratic": "flags/EGY/democratic.png",
+      "fascism": "flags/EGY/fascism.png",
+      "neutrality": "flags/EGY/neutrality.png"
+    },
+    "EGY_ALB_united": {
+      "neutrality": "flags/EGY_ALB_united/neutrality.png"
+    },
+    "EGY_ARAB_REPUBLIC": {
+      "democratic": "flags/EGY_ARAB_REPUBLIC/democratic.png",
+      "neutrality": "flags/EGY_ARAB_REPUBLIC/neutrality.png"
+    },
+    "EGY_BRITISH_PUPPET": {
+      "democratic": "flags/EGY_BRITISH_PUPPET/democratic.png",
+      "fascism": "flags/EGY_BRITISH_PUPPET/fascism.png",
+      "neutrality": "flags/EGY_BRITISH_PUPPET/neutrality.png"
+    },
+    "EGY_FAB": {
+      "democratic": "flags/EGY_FAB/democratic.png"
+    },
+    "EGY_KHEDIVE": {
+      "neutrality": "flags/EGY_KHEDIVE/neutrality.png"
+    },
+    "EGY_PAL": {
+      "default": "flags/EGY_PAL/default.png"
+    },
+    "EGY_neutrality_nasser": {
+      "default": "flags/EGY_neutrality_nasser/default.png"
+    },
+    "EHA": {
+      "default": "flags/EHA/default.png"
+    },
+    "EIS": {
+      "communism": "flags/EIS/communism.png",
+      "democratic": "flags/EIS/democratic.png",
+      "fascism": "flags/EIS/fascism.png",
+      "neutrality": "flags/EIS/neutrality.png"
+    },
+    "ELS": {
+      "communism": "flags/ELS/communism.png",
+      "democratic": "flags/ELS/democratic.png",
+      "fascism": "flags/ELS/fascism.png",
+      "neutrality": "flags/ELS/neutrality.png"
+    },
+    "ENG": {
+      "communism": "flags/ENG/communism.png",
+      "democratic": "flags/ENG/democratic.png",
+      "fascism": "flags/ENG/fascism.png",
+      "neutrality": "flags/ENG/neutrality.png"
+    },
+    "ENG_BRM": {
+      "democratic": "flags/ENG_BRM/democratic.png",
+      "neutrality": "flags/ENG_BRM/neutrality.png"
+    },
+    "ENG_FIJ": {
+      "democratic": "flags/ENG_FIJ/democratic.png",
+      "neutrality": "flags/ENG_FIJ/neutrality.png"
+    },
+    "ENG_MEX_dominion": {
+      "default": "flags/ENG_MEX_dominion/default.png",
+      "communism": "flags/ENG_MEX_dominion/communism.png"
+    },
+    "ENG_PAL": {
+      "democratic": "flags/ENG_PAL/democratic.png",
+      "neutrality": "flags/ENG_PAL/neutrality.png"
+    },
+    "ENG_england": {
+      "communism": "flags/ENG_england/communism.png",
+      "democratic": "flags/ENG_england/democratic.png",
+      "fascism": "flags/ENG_england/fascism.png",
+      "neutrality": "flags/ENG_england/neutrality.png"
+    },
+    "ENG_imperial_federation_india_unified": {
+      "communism": "flags/ENG_imperial_federation_india_unified/communism.png",
+      "democratic": "flags/ENG_imperial_federation_india_unified/democratic.png",
+      "fascism": "flags/ENG_imperial_federation_india_unified/fascism.png",
+      "neutrality": "flags/ENG_imperial_federation_india_unified/neutrality.png"
+    },
+    "ENG_imperial_federation_unified": {
+      "communism": "flags/ENG_imperial_federation_unified/communism.png",
+      "democratic": "flags/ENG_imperial_federation_unified/democratic.png",
+      "fascism": "flags/ENG_imperial_federation_unified/fascism.png",
+      "neutrality": "flags/ENG_imperial_federation_unified/neutrality.png"
+    },
+    "ENG_imperialist_australia": {
+      "fascism": "flags/ENG_imperialist_australia/fascism.png",
+      "neutrality": "flags/ENG_imperialist_australia/neutrality.png"
+    },
+    "ENG_imperialist_canada": {
+      "fascism": "flags/ENG_imperialist_canada/fascism.png",
+      "neutrality": "flags/ENG_imperialist_canada/neutrality.png"
+    },
+    "ENG_imperialist_new_zealand": {
+      "fascism": "flags/ENG_imperialist_new_zealand/fascism.png",
+      "neutrality": "flags/ENG_imperialist_new_zealand/neutrality.png"
+    },
+    "ENG_imperialist_south_africa": {
+      "fascism": "flags/ENG_imperialist_south_africa/fascism.png",
+      "neutrality": "flags/ENG_imperialist_south_africa/neutrality.png"
+    },
+    "EOB_empire_brazil": {
+      "neutrality": "flags/EOB_empire_brazil/neutrality.png"
+    },
+    "EQG": {
+      "communism": "flags/EQG/communism.png",
+      "democratic": "flags/EQG/democratic.png",
+      "fascism": "flags/EQG/fascism.png",
+      "neutrality": "flags/EQG/neutrality.png"
+    },
+    "ERI": {
+      "communism": "flags/ERI/communism.png",
+      "democratic": "flags/ERI/democratic.png",
+      "fascism": "flags/ERI/fascism.png",
+      "neutrality": "flags/ERI/neutrality.png"
+    },
+    "EST": {
+      "communism": "flags/EST/communism.png",
+      "democratic": "flags/EST/democratic.png",
+      "fascism": "flags/EST/fascism.png",
+      "neutrality": "flags/EST/neutrality.png"
+    },
+    "EST_livonia": {
+      "default": "flags/EST_livonia/default.png"
+    },
+    "ESU_POR_unified": {
+      "communism": "flags/ESU_POR_unified/communism.png",
+      "democratic": "flags/ESU_POR_unified/democratic.png",
+      "fascism": "flags/ESU_POR_unified/fascism.png",
+      "neutrality": "flags/ESU_POR_unified/neutrality.png"
+    },
+    "ETH": {
+      "communism": "flags/ETH/communism.png",
+      "democratic": "flags/ETH/democratic.png",
+      "fascism": "flags/ETH/fascism.png",
+      "neutrality": "flags/ETH/neutrality.png"
+    },
+    "FAK": {
+      "communism": "flags/FAK/communism.png",
+      "democratic": "flags/FAK/democratic.png",
+      "fascism": "flags/FAK/fascism.png",
+      "neutrality": "flags/FAK/neutrality.png"
+    },
+    "FAR": {
+      "communism": "flags/FAR/communism.png",
+      "democratic": "flags/FAR/democratic.png",
+      "fascism": "flags/FAR/fascism.png",
+      "neutrality": "flags/FAR/neutrality.png"
+    },
+    "FIJ": {
+      "communism": "flags/FIJ/communism.png",
+      "democratic": "flags/FIJ/democratic.png",
+      "fascism": "flags/FIJ/fascism.png",
+      "neutrality": "flags/FIJ/neutrality.png"
+    },
+    "FIN": {
+      "communism": "flags/FIN/communism.png",
+      "democratic": "flags/FIN/democratic.png",
+      "fascism": "flags/FIN/fascism.png",
+      "neutrality": "flags/FIN/neutrality.png"
+    },
+    "FIN_aks": {
+      "neutrality": "flags/FIN_aks/neutrality.png"
+    },
+    "FIN_ssr": {
+      "communism": "flags/FIN_ssr/communism.png"
+    },
+    "FIN_stalinism": {
+      "communism": "flags/FIN_stalinism/communism.png"
+    },
+    "FIN_viking": {
+      "fascism": "flags/FIN_viking/fascism.png"
+    },
+    "FLA": {
+      "communism": "flags/FLA/communism.png",
+      "democratic": "flags/FLA/democratic.png",
+      "fascism": "flags/FLA/fascism.png",
+      "neutrality": "flags/FLA/neutrality.png"
+    },
     "FORM_AAS": {
       "communism": "flags/FORM_AAS/communism.png",
       "democratic": "flags/FORM_AAS/democratic.png",
@@ -496,6 +1479,2615 @@
       "democratic": "flags/FORM_ZAP/democratic.png",
       "fascism": "flags/FORM_ZAP/fascism.png",
       "neutrality": "flags/FORM_ZAP/neutrality.png"
+    },
+    "FRA": {
+      "communism": "flags/FRA/communism.png",
+      "democratic": "flags/FRA/democratic.png",
+      "fascism": "flags/FRA/fascism.png",
+      "neutrality": "flags/FRA/neutrality.png"
+    },
+    "FRAEMPIRE": {
+      "neutrality": "flags/FRAEMPIRE/neutrality.png"
+    },
+    "FRANCO_SPAIN": {
+      "communism": "flags/FRANCO_SPAIN/communism.png",
+      "democratic": "flags/FRANCO_SPAIN/democratic.png",
+      "fascism": "flags/FRANCO_SPAIN/fascism.png",
+      "neutrality": "flags/FRANCO_SPAIN/neutrality.png"
+    },
+    "FRA_FREE": {
+      "democratic": "flags/FRA_FREE/democratic.png"
+    },
+    "FRA_GER": {
+      "fascism": "flags/FRA_GER/fascism.png"
+    },
+    "FRA_PETAIN": {
+      "neutrality": "flags/FRA_PETAIN/neutrality.png"
+    },
+    "FRA_THIRD_EMPIRE": {
+      "neutrality": "flags/FRA_THIRD_EMPIRE/neutrality.png"
+    },
+    "FRA_UK": {
+      "communism": "flags/FRA_UK/communism.png",
+      "democratic": "flags/FRA_UK/democratic.png",
+      "fascism": "flags/FRA_UK/fascism.png",
+      "neutrality": "flags/FRA_UK/neutrality.png"
+    },
+    "FRA_VICHY": {
+      "communism": "flags/FRA_VICHY/communism.png",
+      "democratic": "flags/FRA_VICHY/democratic.png",
+      "fascism": "flags/FRA_VICHY/fascism.png",
+      "neutrality": "flags/FRA_VICHY/neutrality.png"
+    },
+    "FRA_fascist": {
+      "default": "flags/FRA_fascist/default.png"
+    },
+    "FRA_free": {
+      "default": "flags/FRA_free/default.png",
+      "communism": "flags/FRA_free/communism.png"
+    },
+    "FRI": {
+      "communism": "flags/FRI/communism.png",
+      "democratic": "flags/FRI/democratic.png",
+      "fascism": "flags/FRI/fascism.png",
+      "neutrality": "flags/FRI/neutrality.png"
+    },
+    "FRIVichy": {
+      "fascism": "flags/FRIVichy/fascism.png"
+    },
+    "FSM": {
+      "communism": "flags/FSM/communism.png",
+      "democratic": "flags/FSM/democratic.png",
+      "fascism": "flags/FSM/fascism.png",
+      "neutrality": "flags/FSM/neutrality.png"
+    },
+    "G01": {
+      "default": "flags/G01/default.png"
+    },
+    "GAB": {
+      "communism": "flags/GAB/communism.png",
+      "democratic": "flags/GAB/democratic.png",
+      "fascism": "flags/GAB/fascism.png",
+      "neutrality": "flags/GAB/neutrality.png"
+    },
+    "GAB_FRA": {
+      "default": "flags/GAB_FRA/default.png"
+    },
+    "GAM": {
+      "communism": "flags/GAM/communism.png",
+      "democratic": "flags/GAM/democratic.png",
+      "fascism": "flags/GAM/fascism.png",
+      "neutrality": "flags/GAM/neutrality.png"
+    },
+    "GCDcivilwar": {
+      "communism": "flags/GCDcivilwar/communism.png"
+    },
+    "GCDguerilla": {
+      "communism": "flags/GCDguerilla/communism.png"
+    },
+    "GCDsgn": {
+      "communism": "flags/GCDsgn/communism.png"
+    },
+    "GCOL": {
+      "communism": "flags/GCOL/communism.png",
+      "democratic": "flags/GCOL/democratic.png",
+      "fascism": "flags/GCOL/fascism.png",
+      "neutrality": "flags/GCOL/neutrality.png"
+    },
+    "GDC": {
+      "neutrality": "flags/GDC/neutrality.png"
+    },
+    "GDL": {
+      "communism": "flags/GDL/communism.png",
+      "democratic": "flags/GDL/democratic.png",
+      "fascism": "flags/GDL/fascism.png",
+      "neutrality": "flags/GDL/neutrality.png"
+    },
+    "GEO": {
+      "communism": "flags/GEO/communism.png",
+      "democratic": "flags/GEO/democratic.png",
+      "fascism": "flags/GEO/fascism.png",
+      "neutrality": "flags/GEO/neutrality.png"
+    },
+    "GEO_monarchy": {
+      "communism": "flags/GEO_monarchy/communism.png",
+      "democratic": "flags/GEO_monarchy/democratic.png",
+      "fascism": "flags/GEO_monarchy/fascism.png",
+      "neutrality": "flags/GEO_monarchy/neutrality.png"
+    },
+    "GER": {
+      "communism": "flags/GER/communism.png",
+      "democratic": "flags/GER/democratic.png",
+      "fascism": "flags/GER/fascism.png",
+      "neutrality": "flags/GER/neutrality.png"
+    },
+    "GER_REUNITED": {
+      "communism": "flags/GER_REUNITED/communism.png",
+      "democratic": "flags/GER_REUNITED/democratic.png",
+      "fascism": "flags/GER_REUNITED/fascism.png",
+      "neutrality": "flags/GER_REUNITED/neutrality.png"
+    },
+    "GER_beck_tag": {
+      "neutrality": "flags/GER_beck_tag/neutrality.png"
+    },
+    "GER_col_emp": {
+      "communism": "flags/GER_col_emp/communism.png",
+      "democratic": "flags/GER_col_emp/democratic.png",
+      "fascism": "flags/GER_col_emp/fascism.png",
+      "neutrality": "flags/GER_col_emp/neutrality.png"
+    },
+    "GER_council_eur": {
+      "communism": "flags/GER_council_eur/communism.png"
+    },
+    "GER_council_world": {
+      "communism": "flags/GER_council_world/communism.png"
+    },
+    "GER_demo_auth": {
+      "neutrality": "flags/GER_demo_auth/neutrality.png"
+    },
+    "GER_emp": {
+      "communism": "flags/GER_emp/communism.png",
+      "democratic": "flags/GER_emp/democratic.png",
+      "fascism": "flags/GER_emp/fascism.png",
+      "neutrality": "flags/GER_emp/neutrality.png"
+    },
+    "GER_german_monarchy": {
+      "democratic": "flags/GER_german_monarchy/democratic.png"
+    },
+    "GER_gr_beck_tag": {
+      "neutrality": "flags/GER_gr_beck_tag/neutrality.png"
+    },
+    "GER_gr_emp": {
+      "communism": "flags/GER_gr_emp/communism.png",
+      "democratic": "flags/GER_gr_emp/democratic.png",
+      "fascism": "flags/GER_gr_emp/fascism.png",
+      "neutrality": "flags/GER_gr_emp/neutrality.png"
+    },
+    "GER_gr_pres_gov": {
+      "communism": "flags/GER_gr_pres_gov/communism.png",
+      "democratic": "flags/GER_gr_pres_gov/democratic.png",
+      "fascism": "flags/GER_gr_pres_gov/fascism.png",
+      "neutrality": "flags/GER_gr_pres_gov/neutrality.png"
+    },
+    "GER_gr_pres_gov_gold": {
+      "communism": "flags/GER_gr_pres_gov_gold/communism.png",
+      "democratic": "flags/GER_gr_pres_gov_gold/democratic.png",
+      "fascism": "flags/GER_gr_pres_gov_gold/fascism.png",
+      "neutrality": "flags/GER_gr_pres_gov_gold/neutrality.png"
+    },
+    "GER_gr_rep": {
+      "communism": "flags/GER_gr_rep/communism.png",
+      "democratic": "flags/GER_gr_rep/democratic.png",
+      "fascism": "flags/GER_gr_rep/fascism.png",
+      "neutrality": "flags/GER_gr_rep/neutrality.png"
+    },
+    "GER_gr_rep_gold": {
+      "communism": "flags/GER_gr_rep_gold/communism.png",
+      "democratic": "flags/GER_gr_rep_gold/democratic.png",
+      "fascism": "flags/GER_gr_rep_gold/fascism.png",
+      "neutrality": "flags/GER_gr_rep_gold/neutrality.png"
+    },
+    "GER_kpd_gdr": {
+      "default": "flags/GER_kpd_gdr/default.png"
+    },
+    "GER_pres_gov": {
+      "communism": "flags/GER_pres_gov/communism.png",
+      "democratic": "flags/GER_pres_gov/democratic.png",
+      "fascism": "flags/GER_pres_gov/fascism.png",
+      "neutrality": "flags/GER_pres_gov/neutrality.png"
+    },
+    "GER_pres_gov_gold": {
+      "communism": "flags/GER_pres_gov_gold/communism.png",
+      "democratic": "flags/GER_pres_gov_gold/democratic.png",
+      "fascism": "flags/GER_pres_gov_gold/fascism.png",
+      "neutrality": "flags/GER_pres_gov_gold/neutrality.png"
+    },
+    "GER_prov_gov": {
+      "communism": "flags/GER_prov_gov/communism.png",
+      "democratic": "flags/GER_prov_gov/democratic.png",
+      "fascism": "flags/GER_prov_gov/fascism.png",
+      "neutrality": "flags/GER_prov_gov/neutrality.png"
+    },
+    "GER_prov_gov_gold": {
+      "communism": "flags/GER_prov_gov_gold/communism.png",
+      "democratic": "flags/GER_prov_gov_gold/democratic.png",
+      "fascism": "flags/GER_prov_gov_gold/fascism.png",
+      "neutrality": "flags/GER_prov_gov_gold/neutrality.png"
+    },
+    "GER_provisional_gvt": {
+      "communism": "flags/GER_provisional_gvt/communism.png",
+      "democratic": "flags/GER_provisional_gvt/democratic.png",
+      "fascism": "flags/GER_provisional_gvt/fascism.png",
+      "neutrality": "flags/GER_provisional_gvt/neutrality.png"
+    },
+    "GER_r56_strasserite_state": {
+      "fascism": "flags/GER_r56_strasserite_state/fascism.png"
+    },
+    "GER_rep": {
+      "communism": "flags/GER_rep/communism.png",
+      "democratic": "flags/GER_rep/democratic.png",
+      "fascism": "flags/GER_rep/fascism.png",
+      "neutrality": "flags/GER_rep/neutrality.png"
+    },
+    "GER_rep_gold": {
+      "communism": "flags/GER_rep_gold/communism.png",
+      "democratic": "flags/GER_rep_gold/democratic.png",
+      "fascism": "flags/GER_rep_gold/fascism.png",
+      "neutrality": "flags/GER_rep_gold/neutrality.png"
+    },
+    "GER_stalinist": {
+      "communism": "flags/GER_stalinist/communism.png"
+    },
+    "GHA": {
+      "communism": "flags/GHA/communism.png",
+      "democratic": "flags/GHA/democratic.png",
+      "fascism": "flags/GHA/fascism.png",
+      "neutrality": "flags/GHA/neutrality.png"
+    },
+    "GLC": {
+      "communism": "flags/GLC/communism.png",
+      "democratic": "flags/GLC/democratic.png",
+      "fascism": "flags/GLC/fascism.png",
+      "neutrality": "flags/GLC/neutrality.png"
+    },
+    "GNA": {
+      "communism": "flags/GNA/communism.png",
+      "democratic": "flags/GNA/democratic.png",
+      "fascism": "flags/GNA/fascism.png",
+      "neutrality": "flags/GNA/neutrality.png"
+    },
+    "GNB": {
+      "communism": "flags/GNB/communism.png",
+      "democratic": "flags/GNB/democratic.png",
+      "fascism": "flags/GNB/fascism.png",
+      "neutrality": "flags/GNB/neutrality.png"
+    },
+    "GRA": {
+      "communism": "flags/GRA/communism.png",
+      "democratic": "flags/GRA/democratic.png",
+      "fascism": "flags/GRA/fascism.png",
+      "neutrality": "flags/GRA/neutrality.png"
+    },
+    "GRE": {
+      "communism": "flags/GRE/communism.png",
+      "democratic": "flags/GRE/democratic.png",
+      "fascism": "flags/GRE/fascism.png",
+      "neutrality": "flags/GRE/neutrality.png"
+    },
+    "GRE_R56": {
+      "communism": "flags/GRE_R56/communism.png",
+      "democratic": "flags/GRE_R56/democratic.png",
+      "fascism": "flags/GRE_R56/fascism.png",
+      "neutrality": "flags/GRE_R56/neutrality.png"
+    },
+    "GRE_dem_monarchy": {
+      "democratic": "flags/GRE_dem_monarchy/democratic.png",
+      "neutrality": "flags/GRE_dem_monarchy/neutrality.png"
+    },
+    "GRE_neutrality_alternative": {
+      "default": "flags/GRE_neutrality_alternative/default.png"
+    },
+    "GRN": {
+      "communism": "flags/GRN/communism.png",
+      "democratic": "flags/GRN/democratic.png",
+      "fascism": "flags/GRN/fascism.png",
+      "neutrality": "flags/GRN/neutrality.png"
+    },
+    "GRN2": {
+      "democratic": "flags/GRN2/democratic.png"
+    },
+    "GRN_free": {
+      "communism": "flags/GRN_free/communism.png",
+      "democratic": "flags/GRN_free/democratic.png",
+      "fascism": "flags/GRN_free/fascism.png",
+      "neutrality": "flags/GRN_free/neutrality.png"
+    },
+    "GRN_royal": {
+      "neutrality": "flags/GRN_royal/neutrality.png"
+    },
+    "GSM": {
+      "communism": "flags/GSM/communism.png",
+      "democratic": "flags/GSM/democratic.png",
+      "fascism": "flags/GSM/fascism.png",
+      "neutrality": "flags/GSM/neutrality.png"
+    },
+    "GUA": {
+      "communism": "flags/GUA/communism.png",
+      "democratic": "flags/GUA/democratic.png",
+      "fascism": "flags/GUA/fascism.png",
+      "neutrality": "flags/GUA/neutrality.png"
+    },
+    "GUA_FRA": {
+      "communism": "flags/GUA_FRA/communism.png",
+      "democratic": "flags/GUA_FRA/democratic.png",
+      "fascism": "flags/GUA_FRA/fascism.png",
+      "neutrality": "flags/GUA_FRA/neutrality.png"
+    },
+    "GUK": {
+      "communism": "flags/GUK/communism.png",
+      "democratic": "flags/GUK/democratic.png",
+      "fascism": "flags/GUK/fascism.png",
+      "neutrality": "flags/GUK/neutrality.png"
+    },
+    "GUM": {
+      "communism": "flags/GUM/communism.png",
+      "democratic": "flags/GUM/democratic.png",
+      "fascism": "flags/GUM/fascism.png",
+      "neutrality": "flags/GUM/neutrality.png"
+    },
+    "GXC": {
+      "communism": "flags/GXC/communism.png",
+      "democratic": "flags/GXC/democratic.png",
+      "fascism": "flags/GXC/fascism.png",
+      "neutrality": "flags/GXC/neutrality.png"
+    },
+    "GYA": {
+      "communism": "flags/GYA/communism.png",
+      "democratic": "flags/GYA/democratic.png",
+      "fascism": "flags/GYA/fascism.png",
+      "neutrality": "flags/GYA/neutrality.png"
+    },
+    "HAI": {
+      "communism": "flags/HAI/communism.png",
+      "democratic": "flags/HAI/democratic.png",
+      "fascism": "flags/HAI/fascism.png",
+      "neutrality": "flags/HAI/neutrality.png"
+    },
+    "HAN": {
+      "communism": "flags/HAN/communism.png",
+      "democratic": "flags/HAN/democratic.png",
+      "fascism": "flags/HAN/fascism.png",
+      "neutrality": "flags/HAN/neutrality.png"
+    },
+    "HAN_WST": {
+      "default": "flags/HAN_WST/default.png",
+      "communism": "flags/HAN_WST/communism.png"
+    },
+    "HAW": {
+      "communism": "flags/HAW/communism.png",
+      "democratic": "flags/HAW/democratic.png",
+      "fascism": "flags/HAW/fascism.png",
+      "neutrality": "flags/HAW/neutrality.png"
+    },
+    "HAZ": {
+      "communism": "flags/HAZ/communism.png",
+      "democratic": "flags/HAZ/democratic.png",
+      "fascism": "flags/HAZ/fascism.png",
+      "neutrality": "flags/HAZ/neutrality.png"
+    },
+    "HBC": {
+      "neutrality": "flags/HBC/neutrality.png"
+    },
+    "HCPC": {
+      "neutrality": "flags/HCPC/neutrality.png"
+    },
+    "HES": {
+      "communism": "flags/HES/communism.png",
+      "democratic": "flags/HES/democratic.png",
+      "fascism": "flags/HES/fascism.png",
+      "neutrality": "flags/HES/neutrality.png"
+    },
+    "HOL": {
+      "communism": "flags/HOL/communism.png",
+      "democratic": "flags/HOL/democratic.png",
+      "fascism": "flags/HOL/fascism.png",
+      "neutrality": "flags/HOL/neutrality.png"
+    },
+    "HOL_benelux_unified": {
+      "communism": "flags/HOL_benelux_unified/communism.png",
+      "democratic": "flags/HOL_benelux_unified/democratic.png",
+      "fascism": "flags/HOL_benelux_unified/fascism.png",
+      "neutrality": "flags/HOL_benelux_unified/neutrality.png"
+    },
+    "HOL_reichskommissariat": {
+      "fascism": "flags/HOL_reichskommissariat/fascism.png"
+    },
+    "HON": {
+      "communism": "flags/HON/communism.png",
+      "democratic": "flags/HON/democratic.png",
+      "fascism": "flags/HON/fascism.png",
+      "neutrality": "flags/HON/neutrality.png"
+    },
+    "HON_kingdom": {
+      "neutrality": "flags/HON_kingdom/neutrality.png"
+    },
+    "HREAUS": {
+      "communism": "flags/HREAUS/communism.png",
+      "democratic": "flags/HREAUS/democratic.png",
+      "fascism": "flags/HREAUS/fascism.png",
+      "neutrality": "flags/HREAUS/neutrality.png"
+    },
+    "HRZ": {
+      "communism": "flags/HRZ/communism.png",
+      "democratic": "flags/HRZ/democratic.png",
+      "fascism": "flags/HRZ/fascism.png",
+      "neutrality": "flags/HRZ/neutrality.png"
+    },
+    "HUN": {
+      "communism": "flags/HUN/communism.png",
+      "democratic": "flags/HUN/democratic.png",
+      "fascism": "flags/HUN/fascism.png",
+      "neutrality": "flags/HUN/neutrality.png"
+    },
+    "HUN_EMPIRE": {
+      "communism": "flags/HUN_EMPIRE/communism.png",
+      "democratic": "flags/HUN_EMPIRE/democratic.png",
+      "fascism": "flags/HUN_EMPIRE/fascism.png",
+      "neutrality": "flags/HUN_EMPIRE/neutrality.png"
+    },
+    "HUN_GREATER": {
+      "democratic": "flags/HUN_GREATER/democratic.png",
+      "fascism": "flags/HUN_GREATER/fascism.png",
+      "neutrality": "flags/HUN_GREATER/neutrality.png"
+    },
+    "HUN_MONARCHY": {
+      "democratic": "flags/HUN_MONARCHY/democratic.png"
+    },
+    "HYD": {
+      "communism": "flags/HYD/communism.png",
+      "democratic": "flags/HYD/democratic.png",
+      "fascism": "flags/HYD/fascism.png",
+      "neutrality": "flags/HYD/neutrality.png"
+    },
+    "ICE": {
+      "communism": "flags/ICE/communism.png",
+      "democratic": "flags/ICE/democratic.png",
+      "fascism": "flags/ICE/fascism.png",
+      "neutrality": "flags/ICE/neutrality.png"
+    },
+    "IDEL_URAL": {
+      "communism": "flags/IDEL_URAL/communism.png",
+      "democratic": "flags/IDEL_URAL/democratic.png",
+      "neutrality": "flags/IDEL_URAL/neutrality.png"
+    },
+    "INC": {
+      "communism": "flags/INC/communism.png",
+      "fascism": "flags/INC/fascism.png",
+      "neutrality": "flags/INC/neutrality.png"
+    },
+    "INC_KR": {
+      "neutrality": "flags/INC_KR/neutrality.png"
+    },
+    "INS": {
+      "communism": "flags/INS/communism.png",
+      "democratic": "flags/INS/democratic.png",
+      "fascism": "flags/INS/fascism.png",
+      "neutrality": "flags/INS/neutrality.png"
+    },
+    "INS_HOL": {
+      "communism": "flags/INS_HOL/communism.png",
+      "democratic": "flags/INS_HOL/democratic.png",
+      "fascism": "flags/INS_HOL/fascism.png",
+      "neutrality": "flags/INS_HOL/neutrality.png"
+    },
+    "INS_HOL_autonomy_supervised_state": {
+      "default": "flags/INS_HOL_autonomy_supervised_state/default.png"
+    },
+    "INS_JAP": {
+      "default": "flags/INS_JAP/default.png"
+    },
+    "INS_SOV": {
+      "communism": "flags/INS_SOV/communism.png"
+    },
+    "INS_aslia": {
+      "default": "flags/INS_aslia/default.png"
+    },
+    "INS_islamic": {
+      "communism": "flags/INS_islamic/communism.png",
+      "democratic": "flags/INS_islamic/democratic.png",
+      "fascism": "flags/INS_islamic/fascism.png",
+      "neutrality": "flags/INS_islamic/neutrality.png"
+    },
+    "INS_monarchy": {
+      "communism": "flags/INS_monarchy/communism.png",
+      "democratic": "flags/INS_monarchy/democratic.png",
+      "fascism": "flags/INS_monarchy/fascism.png",
+      "neutrality": "flags/INS_monarchy/neutrality.png"
+    },
+    "INS_secular": {
+      "communism": "flags/INS_secular/communism.png",
+      "democratic": "flags/INS_secular/democratic.png",
+      "fascism": "flags/INS_secular/fascism.png",
+      "neutrality": "flags/INS_secular/neutrality.png"
+    },
+    "IRE": {
+      "communism": "flags/IRE/communism.png",
+      "democratic": "flags/IRE/democratic.png",
+      "fascism": "flags/IRE/fascism.png",
+      "neutrality": "flags/IRE/neutrality.png"
+    },
+    "IRQ": {
+      "communism": "flags/IRQ/communism.png",
+      "democratic": "flags/IRQ/democratic.png",
+      "fascism": "flags/IRQ/fascism.png",
+      "neutrality": "flags/IRQ/neutrality.png"
+    },
+    "IRQ_Babil": {
+      "default": "flags/IRQ_Babil/default.png"
+    },
+    "ISR": {
+      "communism": "flags/ISR/communism.png",
+      "democratic": "flags/ISR/democratic.png",
+      "fascism": "flags/ISR/fascism.png",
+      "neutrality": "flags/ISR/neutrality.png"
+    },
+    "ISR_couped": {
+      "communism": "flags/ISR_couped/communism.png",
+      "democratic": "flags/ISR_couped/democratic.png",
+      "fascism": "flags/ISR_couped/fascism.png",
+      "neutrality": "flags/ISR_couped/neutrality.png"
+    },
+    "ISR_revolt": {
+      "default": "flags/ISR_revolt/default.png",
+      "fascism": "flags/ISR_revolt/fascism.png",
+      "neutrality": "flags/ISR_revolt/neutrality.png"
+    },
+    "ITA": {
+      "communism": "flags/ITA/communism.png",
+      "democratic": "flags/ITA/democratic.png",
+      "fascism": "flags/ITA/fascism.png",
+      "neutrality": "flags/ITA/neutrality.png"
+    },
+    "ITA_FRA": {
+      "fascism": "flags/ITA_FRA/fascism.png",
+      "neutrality": "flags/ITA_FRA/neutrality.png"
+    },
+    "ITA_REBORN_NAP": {
+      "communism": "flags/ITA_REBORN_NAP/communism.png",
+      "democratic": "flags/ITA_REBORN_NAP/democratic.png",
+      "fascism": "flags/ITA_REBORN_NAP/fascism.png",
+      "neutrality": "flags/ITA_REBORN_NAP/neutrality.png"
+    },
+    "ITA_REBORN_SAD": {
+      "communism": "flags/ITA_REBORN_SAD/communism.png",
+      "democratic": "flags/ITA_REBORN_SAD/democratic.png",
+      "fascism": "flags/ITA_REBORN_SAD/fascism.png",
+      "neutrality": "flags/ITA_REBORN_SAD/neutrality.png"
+    },
+    "ITA_REBORN_SCI": {
+      "communism": "flags/ITA_REBORN_SCI/communism.png",
+      "democratic": "flags/ITA_REBORN_SCI/democratic.png",
+      "fascism": "flags/ITA_REBORN_SCI/fascism.png",
+      "neutrality": "flags/ITA_REBORN_SCI/neutrality.png"
+    },
+    "ITA_REBORN_VNZ": {
+      "communism": "flags/ITA_REBORN_VNZ/communism.png",
+      "democratic": "flags/ITA_REBORN_VNZ/democratic.png",
+      "fascism": "flags/ITA_REBORN_VNZ/fascism.png",
+      "neutrality": "flags/ITA_REBORN_VNZ/neutrality.png"
+    },
+    "ITA_RSI": {
+      "fascism": "flags/ITA_RSI/fascism.png"
+    },
+    "ITR": {
+      "communism": "flags/ITR/communism.png",
+      "democratic": "flags/ITR/democratic.png",
+      "fascism": "flags/ITR/fascism.png",
+      "neutrality": "flags/ITR/neutrality.png"
+    },
+    "IVO": {
+      "communism": "flags/IVO/communism.png",
+      "democratic": "flags/IVO/democratic.png",
+      "fascism": "flags/IVO/fascism.png",
+      "neutrality": "flags/IVO/neutrality.png"
+    },
+    "JAM": {
+      "communism": "flags/JAM/communism.png",
+      "democratic": "flags/JAM/democratic.png",
+      "fascism": "flags/JAM/fascism.png",
+      "neutrality": "flags/JAM/neutrality.png"
+    },
+    "JAP": {
+      "communism": "flags/JAP/communism.png",
+      "democratic": "flags/JAP/democratic.png",
+      "fascism": "flags/JAP/fascism.png",
+      "neutrality": "flags/JAP/neutrality.png"
+    },
+    "JAP2": {
+      "fascism": "flags/JAP2/fascism.png"
+    },
+    "JER": {
+      "communism": "flags/JER/communism.png",
+      "democratic": "flags/JER/democratic.png",
+      "fascism": "flags/JER/fascism.png",
+      "neutrality": "flags/JER/neutrality.png"
+    },
+    "JOR": {
+      "communism": "flags/JOR/communism.png",
+      "democratic": "flags/JOR/democratic.png",
+      "fascism": "flags/JOR/fascism.png",
+      "neutrality": "flags/JOR/neutrality.png"
+    },
+    "JVA": {
+      "communism": "flags/JVA/communism.png",
+      "democratic": "flags/JVA/democratic.png",
+      "fascism": "flags/JVA/fascism.png",
+      "neutrality": "flags/JVA/neutrality.png"
+    },
+    "KAL": {
+      "democratic": "flags/KAL/democratic.png"
+    },
+    "KAR": {
+      "communism": "flags/KAR/communism.png",
+      "democratic": "flags/KAR/democratic.png",
+      "fascism": "flags/KAR/fascism.png",
+      "neutrality": "flags/KAR/neutrality.png"
+    },
+    "KAS": {
+      "neutrality": "flags/KAS/neutrality.png"
+    },
+    "KAZ": {
+      "communism": "flags/KAZ/communism.png",
+      "democratic": "flags/KAZ/democratic.png",
+      "fascism": "flags/KAZ/fascism.png",
+      "neutrality": "flags/KAZ/neutrality.png"
+    },
+    "KAZ_reichskommissariat": {
+      "fascism": "flags/KAZ_reichskommissariat/fascism.png"
+    },
+    "KBK": {
+      "neutrality": "flags/KBK/neutrality.png"
+    },
+    "KEN": {
+      "communism": "flags/KEN/communism.png",
+      "democratic": "flags/KEN/democratic.png",
+      "fascism": "flags/KEN/fascism.png",
+      "neutrality": "flags/KEN/neutrality.png"
+    },
+    "KHA": {
+      "democratic": "flags/KHA/democratic.png",
+      "neutrality": "flags/KHA/neutrality.png"
+    },
+    "KHI": {
+      "fascism": "flags/KHI/fascism.png",
+      "neutrality": "flags/KHI/neutrality.png"
+    },
+    "KHM": {
+      "communism": "flags/KHM/communism.png",
+      "democratic": "flags/KHM/democratic.png",
+      "fascism": "flags/KHM/fascism.png",
+      "neutrality": "flags/KHM/neutrality.png"
+    },
+    "KIR": {
+      "communism": "flags/KIR/communism.png",
+      "democratic": "flags/KIR/democratic.png",
+      "fascism": "flags/KIR/fascism.png",
+      "neutrality": "flags/KIR/neutrality.png"
+    },
+    "KLM": {
+      "democratic": "flags/KLM/democratic.png"
+    },
+    "KOP_kingdom_portugal": {
+      "neutrality": "flags/KOP_kingdom_portugal/neutrality.png"
+    },
+    "KOR": {
+      "communism": "flags/KOR/communism.png",
+      "democratic": "flags/KOR/democratic.png",
+      "fascism": "flags/KOR/fascism.png",
+      "neutrality": "flags/KOR/neutrality.png"
+    },
+    "KOR_tutelage": {
+      "communism": "flags/KOR_tutelage/communism.png",
+      "democratic": "flags/KOR_tutelage/democratic.png",
+      "fascism": "flags/KOR_tutelage/fascism.png",
+      "neutrality": "flags/KOR_tutelage/neutrality.png"
+    },
+    "KOR_unified": {
+      "communism": "flags/KOR_unified/communism.png",
+      "democratic": "flags/KOR_unified/democratic.png",
+      "fascism": "flags/KOR_unified/fascism.png",
+      "neutrality": "flags/KOR_unified/neutrality.png"
+    },
+    "KOS": {
+      "communism": "flags/KOS/communism.png",
+      "democratic": "flags/KOS/democratic.png",
+      "fascism": "flags/KOS/fascism.png",
+      "neutrality": "flags/KOS/neutrality.png"
+    },
+    "KPB_kingdom_portugal_and_brazil": {
+      "communism": "flags/KPB_kingdom_portugal_and_brazil/communism.png",
+      "democratic": "flags/KPB_kingdom_portugal_and_brazil/democratic.png",
+      "fascism": "flags/KPB_kingdom_portugal_and_brazil/fascism.png",
+      "neutrality": "flags/KPB_kingdom_portugal_and_brazil/neutrality.png"
+    },
+    "KUB": {
+      "communism": "flags/KUB/communism.png",
+      "democratic": "flags/KUB/democratic.png",
+      "fascism": "flags/KUB/fascism.png",
+      "neutrality": "flags/KUB/neutrality.png"
+    },
+    "KUR": {
+      "communism": "flags/KUR/communism.png",
+      "democratic": "flags/KUR/democratic.png",
+      "fascism": "flags/KUR/fascism.png",
+      "neutrality": "flags/KUR/neutrality.png"
+    },
+    "KUR_ENG": {
+      "default": "flags/KUR_ENG/default.png",
+      "communism": "flags/KUR_ENG/communism.png"
+    },
+    "KUR_FRA": {
+      "default": "flags/KUR_FRA/default.png",
+      "communism": "flags/KUR_FRA/communism.png"
+    },
+    "KUT": {
+      "communism": "flags/KUT/communism.png",
+      "democratic": "flags/KUT/democratic.png",
+      "fascism": "flags/KUT/fascism.png",
+      "neutrality": "flags/KUT/neutrality.png"
+    },
+    "KUW": {
+      "communism": "flags/KUW/communism.png",
+      "democratic": "flags/KUW/democratic.png",
+      "fascism": "flags/KUW/fascism.png",
+      "neutrality": "flags/KUW/neutrality.png"
+    },
+    "KYR": {
+      "communism": "flags/KYR/communism.png",
+      "democratic": "flags/KYR/democratic.png",
+      "fascism": "flags/KYR/fascism.png",
+      "neutrality": "flags/KYR/neutrality.png"
+    },
+    "LAO": {
+      "communism": "flags/LAO/communism.png",
+      "democratic": "flags/LAO/democratic.png",
+      "fascism": "flags/LAO/fascism.png",
+      "neutrality": "flags/LAO/neutrality.png"
+    },
+    "LAO_FRA": {
+      "democratic": "flags/LAO_FRA/democratic.png",
+      "fascism": "flags/LAO_FRA/fascism.png",
+      "neutrality": "flags/LAO_FRA/neutrality.png"
+    },
+    "LAT": {
+      "communism": "flags/LAT/communism.png",
+      "democratic": "flags/LAT/democratic.png",
+      "fascism": "flags/LAT/fascism.png",
+      "neutrality": "flags/LAT/neutrality.png"
+    },
+    "LBA": {
+      "communism": "flags/LBA/communism.png",
+      "democratic": "flags/LBA/democratic.png",
+      "fascism": "flags/LBA/fascism.png",
+      "neutrality": "flags/LBA/neutrality.png"
+    },
+    "LEB": {
+      "communism": "flags/LEB/communism.png",
+      "democratic": "flags/LEB/democratic.png",
+      "fascism": "flags/LEB/fascism.png",
+      "neutrality": "flags/LEB/neutrality.png"
+    },
+    "LEB_FRA": {
+      "default": "flags/LEB_FRA/default.png",
+      "communism": "flags/LEB_FRA/communism.png"
+    },
+    "LES": {
+      "communism": "flags/LES/communism.png",
+      "democratic": "flags/LES/democratic.png",
+      "fascism": "flags/LES/fascism.png",
+      "neutrality": "flags/LES/neutrality.png"
+    },
+    "LES_ENG": {
+      "default": "flags/LES_ENG/default.png",
+      "communism": "flags/LES_ENG/communism.png"
+    },
+    "LIB": {
+      "communism": "flags/LIB/communism.png",
+      "democratic": "flags/LIB/democratic.png",
+      "fascism": "flags/LIB/fascism.png",
+      "neutrality": "flags/LIB/neutrality.png"
+    },
+    "LIE": {
+      "communism": "flags/LIE/communism.png",
+      "democratic": "flags/LIE/democratic.png",
+      "fascism": "flags/LIE/fascism.png",
+      "neutrality": "flags/LIE/neutrality.png"
+    },
+    "LIE_RUS": {
+      "neutrality": "flags/LIE_RUS/neutrality.png"
+    },
+    "LIT": {
+      "communism": "flags/LIT/communism.png",
+      "democratic": "flags/LIT/democratic.png",
+      "fascism": "flags/LIT/fascism.png",
+      "neutrality": "flags/LIT/neutrality.png"
+    },
+    "LIT_MEMEL": {
+      "communism": "flags/LIT_MEMEL/communism.png",
+      "democratic": "flags/LIT_MEMEL/democratic.png",
+      "fascism": "flags/LIT_MEMEL/fascism.png",
+      "neutrality": "flags/LIT_MEMEL/neutrality.png"
+    },
+    "LIT_old": {
+      "fascism": "flags/LIT_old/fascism.png"
+    },
+    "LOI": {
+      "default": "flags/LOI/default.png",
+      "communism": "flags/LOI/communism.png",
+      "neutrality": "flags/LOI/neutrality.png"
+    },
+    "LUX": {
+      "communism": "flags/LUX/communism.png",
+      "democratic": "flags/LUX/democratic.png",
+      "fascism": "flags/LUX/fascism.png",
+      "neutrality": "flags/LUX/neutrality.png"
+    },
+    "LUX_communist": {
+      "communism": "flags/LUX_communist/communism.png"
+    },
+    "LUX_gau": {
+      "fascism": "flags/LUX_gau/fascism.png"
+    },
+    "LUX_gau_moselland": {
+      "fascism": "flags/LUX_gau_moselland/fascism.png"
+    },
+    "LUX_gau_rheinprovinz": {
+      "fascism": "flags/LUX_gau_rheinprovinz/fascism.png"
+    },
+    "MAA": {
+      "communism": "flags/MAA/communism.png",
+      "democratic": "flags/MAA/democratic.png",
+      "fascism": "flags/MAA/fascism.png",
+      "neutrality": "flags/MAA/neutrality.png"
+    },
+    "MAC": {
+      "communism": "flags/MAC/communism.png",
+      "democratic": "flags/MAC/democratic.png",
+      "fascism": "flags/MAC/fascism.png",
+      "neutrality": "flags/MAC/neutrality.png"
+    },
+    "MAD": {
+      "communism": "flags/MAD/communism.png",
+      "democratic": "flags/MAD/democratic.png",
+      "fascism": "flags/MAD/fascism.png",
+      "neutrality": "flags/MAD/neutrality.png"
+    },
+    "MAE": {
+      "communism": "flags/MAE/communism.png",
+      "democratic": "flags/MAE/democratic.png",
+      "fascism": "flags/MAE/fascism.png",
+      "neutrality": "flags/MAE/neutrality.png"
+    },
+    "MAGmen": {
+      "fascism": "flags/MAGmen/fascism.png"
+    },
+    "MAL": {
+      "communism": "flags/MAL/communism.png",
+      "democratic": "flags/MAL/democratic.png",
+      "fascism": "flags/MAL/fascism.png",
+      "neutrality": "flags/MAL/neutrality.png"
+    },
+    "MALI_UNITED": {
+      "default": "flags/MALI_UNITED/default.png",
+      "communism": "flags/MALI_UNITED/communism.png"
+    },
+    "MAL_JAP": {
+      "fascism": "flags/MAL_JAP/fascism.png"
+    },
+    "MAL_UK": {
+      "democratic": "flags/MAL_UK/democratic.png",
+      "neutrality": "flags/MAL_UK/neutrality.png"
+    },
+    "MAL_UNIFIED": {
+      "democratic": "flags/MAL_UNIFIED/democratic.png",
+      "fascism": "flags/MAL_UNIFIED/fascism.png",
+      "neutrality": "flags/MAL_UNIFIED/neutrality.png"
+    },
+    "MAL_UNIFIED_communsim": {
+      "default": "flags/MAL_UNIFIED_communsim/default.png"
+    },
+    "MAL_democratic_one": {
+      "default": "flags/MAL_democratic_one/default.png"
+    },
+    "MAL_democratic_two": {
+      "default": "flags/MAL_democratic_two/default.png"
+    },
+    "MAL_monarchy": {
+      "default": "flags/MAL_monarchy/default.png"
+    },
+    "MAN": {
+      "communism": "flags/MAN/communism.png",
+      "democratic": "flags/MAN/democratic.png",
+      "fascism": "flags/MAN/fascism.png",
+      "neutrality": "flags/MAN/neutrality.png"
+    },
+    "MAN_kwantung_army": {
+      "fascism": "flags/MAN_kwantung_army/fascism.png"
+    },
+    "MAR": {
+      "communism": "flags/MAR/communism.png",
+      "democratic": "flags/MAR/democratic.png",
+      "fascism": "flags/MAR/fascism.png",
+      "neutrality": "flags/MAR/neutrality.png"
+    },
+    "MAU": {
+      "communism": "flags/MAU/communism.png",
+      "democratic": "flags/MAU/democratic.png",
+      "fascism": "flags/MAU/fascism.png",
+      "neutrality": "flags/MAU/neutrality.png"
+    },
+    "MCK": {
+      "communism": "flags/MCK/communism.png",
+      "democratic": "flags/MCK/democratic.png",
+      "fascism": "flags/MCK/fascism.png",
+      "neutrality": "flags/MCK/neutrality.png"
+    },
+    "MEL": {
+      "democratic": "flags/MEL/democratic.png"
+    },
+    "MEN": {
+      "communism": "flags/MEN/communism.png",
+      "democratic": "flags/MEN/democratic.png",
+      "fascism": "flags/MEN/fascism.png",
+      "neutrality": "flags/MEN/neutrality.png"
+    },
+    "MEN_CHI_AUT": {
+      "neutrality": "flags/MEN_CHI_AUT/neutrality.png"
+    },
+    "MEN_MGA": {
+      "communism": "flags/MEN_MGA/communism.png",
+      "democratic": "flags/MEN_MGA/democratic.png",
+      "fascism": "flags/MEN_MGA/fascism.png",
+      "neutrality": "flags/MEN_MGA/neutrality.png"
+    },
+    "MEN_MIL_GOV": {
+      "communism": "flags/MEN_MIL_GOV/communism.png",
+      "democratic": "flags/MEN_MIL_GOV/democratic.png",
+      "fascism": "flags/MEN_MIL_GOV/fascism.png",
+      "neutrality": "flags/MEN_MIL_GOV/neutrality.png"
+    },
+    "MET": {
+      "communism": "flags/MET/communism.png",
+      "democratic": "flags/MET/democratic.png",
+      "fascism": "flags/MET/fascism.png",
+      "neutrality": "flags/MET/neutrality.png"
+    },
+    "MEX": {
+      "communism": "flags/MEX/communism.png",
+      "democratic": "flags/MEX/democratic.png",
+      "fascism": "flags/MEX/fascism.png",
+      "neutrality": "flags/MEX/neutrality.png"
+    },
+    "MEX_EMPIRE": {
+      "neutrality": "flags/MEX_EMPIRE/neutrality.png"
+    },
+    "MEX_SOCIALISTS": {
+      "communism": "flags/MEX_SOCIALISTS/communism.png"
+    },
+    "MEX_cristero": {
+      "communism": "flags/MEX_cristero/communism.png",
+      "democratic": "flags/MEX_cristero/democratic.png",
+      "fascism": "flags/MEX_cristero/fascism.png",
+      "neutrality": "flags/MEX_cristero/neutrality.png"
+    },
+    "MLD": {
+      "communism": "flags/MLD/communism.png",
+      "democratic": "flags/MLD/democratic.png",
+      "fascism": "flags/MLD/fascism.png",
+      "neutrality": "flags/MLD/neutrality.png"
+    },
+    "MLI": {
+      "communism": "flags/MLI/communism.png",
+      "democratic": "flags/MLI/democratic.png",
+      "fascism": "flags/MLI/fascism.png",
+      "neutrality": "flags/MLI/neutrality.png"
+    },
+    "MLI_FRA": {
+      "default": "flags/MLI_FRA/default.png"
+    },
+    "MLK": {
+      "default": "flags/MLK/default.png",
+      "communism": "flags/MLK/communism.png",
+      "fascism": "flags/MLK/fascism.png"
+    },
+    "MLN": {
+      "default": "flags/MLN/default.png",
+      "communism": "flags/MLN/communism.png"
+    },
+    "MLT": {
+      "communism": "flags/MLT/communism.png",
+      "democratic": "flags/MLT/democratic.png",
+      "fascism": "flags/MLT/fascism.png",
+      "neutrality": "flags/MLT/neutrality.png"
+    },
+    "MLW": {
+      "communism": "flags/MLW/communism.png",
+      "democratic": "flags/MLW/democratic.png",
+      "fascism": "flags/MLW/fascism.png",
+      "neutrality": "flags/MLW/neutrality.png"
+    },
+    "MMGmen": {
+      "fascism": "flags/MMGmen/fascism.png"
+    },
+    "MNC": {
+      "communism": "flags/MNC/communism.png",
+      "democratic": "flags/MNC/democratic.png",
+      "fascism": "flags/MNC/fascism.png",
+      "neutrality": "flags/MNC/neutrality.png"
+    },
+    "MNH": {
+      "communism": "flags/MNH/communism.png",
+      "democratic": "flags/MNH/democratic.png",
+      "fascism": "flags/MNH/fascism.png",
+      "neutrality": "flags/MNH/neutrality.png"
+    },
+    "MNT": {
+      "communism": "flags/MNT/communism.png",
+      "democratic": "flags/MNT/democratic.png",
+      "fascism": "flags/MNT/fascism.png",
+      "neutrality": "flags/MNT/neutrality.png"
+    },
+    "MOL": {
+      "communism": "flags/MOL/communism.png",
+      "democratic": "flags/MOL/democratic.png",
+      "fascism": "flags/MOL/fascism.png",
+      "neutrality": "flags/MOL/neutrality.png"
+    },
+    "MON": {
+      "communism": "flags/MON/communism.png",
+      "democratic": "flags/MON/democratic.png",
+      "fascism": "flags/MON/fascism.png",
+      "neutrality": "flags/MON/neutrality.png"
+    },
+    "MON_ANCOM_COMMUNE": {
+      "default": "flags/MON_ANCOM_COMMUNE/default.png"
+    },
+    "MON_BOGD_KHANATE": {
+      "communism": "flags/MON_BOGD_KHANATE/communism.png",
+      "democratic": "flags/MON_BOGD_KHANATE/democratic.png",
+      "fascism": "flags/MON_BOGD_KHANATE/fascism.png",
+      "neutrality": "flags/MON_BOGD_KHANATE/neutrality.png"
+    },
+    "MON_GREATER": {
+      "default": "flags/MON_GREATER/default.png"
+    },
+    "MON_SOV_REPUBLIC": {
+      "default": "flags/MON_SOV_REPUBLIC/default.png"
+    },
+    "MOR": {
+      "communism": "flags/MOR/communism.png",
+      "democratic": "flags/MOR/democratic.png",
+      "fascism": "flags/MOR/fascism.png",
+      "neutrality": "flags/MOR/neutrality.png"
+    },
+    "MOR_FRA": {
+      "default": "flags/MOR_FRA/default.png"
+    },
+    "MOR_SPR": {
+      "default": "flags/MOR_SPR/default.png"
+    },
+    "MOZ": {
+      "communism": "flags/MOZ/communism.png",
+      "democratic": "flags/MOZ/democratic.png",
+      "fascism": "flags/MOZ/fascism.png",
+      "neutrality": "flags/MOZ/neutrality.png"
+    },
+    "MPL": {
+      "default": "flags/MPL/default.png"
+    },
+    "MPL_Jerusalem": {
+      "default": "flags/MPL_Jerusalem/default.png"
+    },
+    "MPL_free": {
+      "communism": "flags/MPL_free/communism.png",
+      "democratic": "flags/MPL_free/democratic.png",
+      "fascism": "flags/MPL_free/fascism.png",
+      "neutrality": "flags/MPL_free/neutrality.png"
+    },
+    "MRS": {
+      "communism": "flags/MRS/communism.png",
+      "democratic": "flags/MRS/democratic.png",
+      "fascism": "flags/MRS/fascism.png",
+      "neutrality": "flags/MRS/neutrality.png"
+    },
+    "MRS_GER": {
+      "neutrality": "flags/MRS_GER/neutrality.png"
+    },
+    "MRT": {
+      "communism": "flags/MRT/communism.png",
+      "democratic": "flags/MRT/democratic.png",
+      "fascism": "flags/MRT/fascism.png",
+      "neutrality": "flags/MRT/neutrality.png"
+    },
+    "NAP": {
+      "communism": "flags/NAP/communism.png",
+      "democratic": "flags/NAP/democratic.png",
+      "fascism": "flags/NAP/fascism.png",
+      "neutrality": "flags/NAP/neutrality.png"
+    },
+    "NAP_FRA": {
+      "default": "flags/NAP_FRA/default.png",
+      "communism": "flags/NAP_FRA/communism.png"
+    },
+    "NAV": {
+      "communism": "flags/NAV/communism.png",
+      "democratic": "flags/NAV/democratic.png",
+      "fascism": "flags/NAV/fascism.png",
+      "neutrality": "flags/NAV/neutrality.png"
+    },
+    "NBR": {
+      "communism": "flags/NBR/communism.png",
+      "democratic": "flags/NBR/democratic.png",
+      "fascism": "flags/NBR/fascism.png",
+      "neutrality": "flags/NBR/neutrality.png"
+    },
+    "NEP": {
+      "communism": "flags/NEP/communism.png",
+      "democratic": "flags/NEP/democratic.png",
+      "fascism": "flags/NEP/fascism.png",
+      "neutrality": "flags/NEP/neutrality.png"
+    },
+    "NEWSPA": {
+      "communism": "flags/NEWSPA/communism.png",
+      "democratic": "flags/NEWSPA/democratic.png",
+      "fascism": "flags/NEWSPA/fascism.png",
+      "neutrality": "flags/NEWSPA/neutrality.png"
+    },
+    "NFL": {
+      "communism": "flags/NFL/communism.png",
+      "democratic": "flags/NFL/democratic.png",
+      "fascism": "flags/NFL/fascism.png",
+      "neutrality": "flags/NFL/neutrality.png"
+    },
+    "NFL_UK": {
+      "democratic": "flags/NFL_UK/democratic.png",
+      "fascism": "flags/NFL_UK/fascism.png",
+      "neutrality": "flags/NFL_UK/neutrality.png"
+    },
+    "NFP": {
+      "communism": "flags/NFP/communism.png",
+      "democratic": "flags/NFP/democratic.png",
+      "fascism": "flags/NFP/fascism.png",
+      "neutrality": "flags/NFP/neutrality.png"
+    },
+    "NGR": {
+      "communism": "flags/NGR/communism.png",
+      "democratic": "flags/NGR/democratic.png",
+      "fascism": "flags/NGR/fascism.png",
+      "neutrality": "flags/NGR/neutrality.png"
+    },
+    "NIC": {
+      "communism": "flags/NIC/communism.png",
+      "democratic": "flags/NIC/democratic.png",
+      "fascism": "flags/NIC/fascism.png",
+      "neutrality": "flags/NIC/neutrality.png"
+    },
+    "NIR": {
+      "communism": "flags/NIR/communism.png",
+      "democratic": "flags/NIR/democratic.png",
+      "fascism": "flags/NIR/fascism.png",
+      "neutrality": "flags/NIR/neutrality.png"
+    },
+    "NIU": {
+      "communism": "flags/NIU/communism.png",
+      "democratic": "flags/NIU/democratic.png",
+      "fascism": "flags/NIU/fascism.png",
+      "neutrality": "flags/NIU/neutrality.png"
+    },
+    "NKR": {
+      "communism": "flags/NKR/communism.png",
+      "democratic": "flags/NKR/democratic.png",
+      "fascism": "flags/NKR/fascism.png",
+      "neutrality": "flags/NKR/neutrality.png"
+    },
+    "NKR_1948": {
+      "communism": "flags/NKR_1948/communism.png"
+    },
+    "NMB": {
+      "communism": "flags/NMB/communism.png",
+      "democratic": "flags/NMB/democratic.png",
+      "fascism": "flags/NMB/fascism.png",
+      "neutrality": "flags/NMB/neutrality.png"
+    },
+    "NOR": {
+      "communism": "flags/NOR/communism.png",
+      "democratic": "flags/NOR/democratic.png",
+      "fascism": "flags/NOR/fascism.png",
+      "neutrality": "flags/NOR/neutrality.png"
+    },
+    "NOR_KINGDOM": {
+      "default": "flags/NOR_KINGDOM/default.png",
+      "fascism": "flags/NOR_KINGDOM/fascism.png"
+    },
+    "NOR_reichskommissariat": {
+      "fascism": "flags/NOR_reichskommissariat/fascism.png"
+    },
+    "NOV": {
+      "communism": "flags/NOV/communism.png",
+      "democratic": "flags/NOV/democratic.png",
+      "fascism": "flags/NOV/fascism.png",
+      "neutrality": "flags/NOV/neutrality.png"
+    },
+    "NRU": {
+      "communism": "flags/NRU/communism.png",
+      "democratic": "flags/NRU/democratic.png",
+      "fascism": "flags/NRU/fascism.png",
+      "neutrality": "flags/NRU/neutrality.png"
+    },
+    "NRU_GER": {
+      "neutrality": "flags/NRU_GER/neutrality.png"
+    },
+    "NWND": {
+      "default": "flags/NWND/default.png"
+    },
+    "NXM": {
+      "democratic": "flags/NXM/democratic.png",
+      "fascism": "flags/NXM/fascism.png",
+      "neutrality": "flags/NXM/neutrality.png"
+    },
+    "NZL": {
+      "communism": "flags/NZL/communism.png",
+      "democratic": "flags/NZL/democratic.png",
+      "fascism": "flags/NZL/fascism.png",
+      "neutrality": "flags/NZL/neutrality.png"
+    },
+    "NZL_JAP": {
+      "fascism": "flags/NZL_JAP/fascism.png",
+      "neutrality": "flags/NZL_JAP/neutrality.png"
+    },
+    "OCC": {
+      "communism": "flags/OCC/communism.png",
+      "democratic": "flags/OCC/democratic.png",
+      "fascism": "flags/OCC/fascism.png",
+      "neutrality": "flags/OCC/neutrality.png"
+    },
+    "OMA": {
+      "communism": "flags/OMA/communism.png",
+      "democratic": "flags/OMA/democratic.png",
+      "fascism": "flags/OMA/fascism.png",
+      "neutrality": "flags/OMA/neutrality.png"
+    },
+    "OTT_SULTANATE": {
+      "default": "flags/OTT_SULTANATE/default.png",
+      "communism": "flags/OTT_SULTANATE/communism.png",
+      "democratic": "flags/OTT_SULTANATE/democratic.png"
+    },
+    "PAK": {
+      "communism": "flags/PAK/communism.png",
+      "democratic": "flags/PAK/democratic.png",
+      "fascism": "flags/PAK/fascism.png",
+      "neutrality": "flags/PAK/neutrality.png"
+    },
+    "PAL": {
+      "communism": "flags/PAL/communism.png",
+      "democratic": "flags/PAL/democratic.png",
+      "fascism": "flags/PAL/fascism.png",
+      "neutrality": "flags/PAL/neutrality.png"
+    },
+    "PAL_commie_greater": {
+      "communism": "flags/PAL_commie_greater/communism.png",
+      "democratic": "flags/PAL_commie_greater/democratic.png",
+      "fascism": "flags/PAL_commie_greater/fascism.png",
+      "neutrality": "flags/PAL_commie_greater/neutrality.png"
+    },
+    "PAL_fawzi_civilwar": {
+      "default": "flags/PAL_fawzi_civilwar/default.png"
+    },
+    "PAL_fawzigolani": {
+      "default": "flags/PAL_fawzigolani/default.png"
+    },
+    "PAL_hashemite_caliphate": {
+      "default": "flags/PAL_hashemite_caliphate/default.png"
+    },
+    "PAL_husam_wholesome": {
+      "default": "flags/PAL_husam_wholesome/default.png"
+    },
+    "PAL_khilafah": {
+      "default": "flags/PAL_khilafah/default.png"
+    },
+    "PAL_nationalist_caliphate": {
+      "default": "flags/PAL_nationalist_caliphate/default.png"
+    },
+    "PAN": {
+      "communism": "flags/PAN/communism.png",
+      "democratic": "flags/PAN/democratic.png",
+      "fascism": "flags/PAN/fascism.png",
+      "neutrality": "flags/PAN/neutrality.png"
+    },
+    "PAR": {
+      "communism": "flags/PAR/communism.png",
+      "democratic": "flags/PAR/democratic.png",
+      "fascism": "flags/PAR/fascism.png",
+      "neutrality": "flags/PAR/neutrality.png"
+    },
+    "PAT": {
+      "communism": "flags/PAT/communism.png",
+      "democratic": "flags/PAT/democratic.png",
+      "fascism": "flags/PAT/fascism.png",
+      "neutrality": "flags/PAT/neutrality.png"
+    },
+    "PER": {
+      "communism": "flags/PER/communism.png",
+      "democratic": "flags/PER/democratic.png",
+      "fascism": "flags/PER/fascism.png",
+      "neutrality": "flags/PER/neutrality.png"
+    },
+    "PER_democracy": {
+      "default": "flags/PER_democracy/default.png"
+    },
+    "PETROPRU": {
+      "communism": "flags/PETROPRU/communism.png",
+      "democratic": "flags/PETROPRU/democratic.png",
+      "fascism": "flags/PETROPRU/fascism.png",
+      "neutrality": "flags/PETROPRU/neutrality.png"
+    },
+    "PGR": {
+      "communism": "flags/PGR/communism.png",
+      "democratic": "flags/PGR/democratic.png",
+      "fascism": "flags/PGR/fascism.png",
+      "neutrality": "flags/PGR/neutrality.png"
+    },
+    "PHI": {
+      "communism": "flags/PHI/communism.png",
+      "democratic": "flags/PHI/democratic.png",
+      "fascism": "flags/PHI/fascism.png",
+      "neutrality": "flags/PHI/neutrality.png"
+    },
+    "PHI_CAR": {
+      "neutrality": "flags/PHI_CAR/neutrality.png"
+    },
+    "PHI_falange": {
+      "fascism": "flags/PHI_falange/fascism.png",
+      "neutrality": "flags/PHI_falange/neutrality.png"
+    },
+    "PLA": {
+      "communism": "flags/PLA/communism.png",
+      "democratic": "flags/PLA/democratic.png",
+      "fascism": "flags/PLA/fascism.png",
+      "neutrality": "flags/PLA/neutrality.png"
+    },
+    "PLU": {
+      "democratic": "flags/PLU/democratic.png",
+      "fascism": "flags/PLU/fascism.png",
+      "neutrality": "flags/PLU/neutrality.png"
+    },
+    "PLY": {
+      "communism": "flags/PLY/communism.png",
+      "democratic": "flags/PLY/democratic.png",
+      "fascism": "flags/PLY/fascism.png",
+      "neutrality": "flags/PLY/neutrality.png"
+    },
+    "PNG": {
+      "communism": "flags/PNG/communism.png",
+      "democratic": "flags/PNG/democratic.png",
+      "fascism": "flags/PNG/fascism.png",
+      "neutrality": "flags/PNG/neutrality.png"
+    },
+    "POL": {
+      "communism": "flags/POL/communism.png",
+      "democratic": "flags/POL/democratic.png",
+      "fascism": "flags/POL/fascism.png",
+      "neutrality": "flags/POL/neutrality.png"
+    },
+    "POLAK": {
+      "communism": "flags/POLAK/communism.png",
+      "democratic": "flags/POLAK/democratic.png",
+      "fascism": "flags/POLAK/fascism.png",
+      "neutrality": "flags/POLAK/neutrality.png"
+    },
+    "POLG": {
+      "communism": "flags/POLG/communism.png",
+      "democratic": "flags/POLG/democratic.png",
+      "fascism": "flags/POLG/fascism.png",
+      "neutrality": "flags/POLG/neutrality.png"
+    },
+    "POLM": {
+      "communism": "flags/POLM/communism.png",
+      "democratic": "flags/POLM/democratic.png",
+      "fascism": "flags/POLM/fascism.png",
+      "neutrality": "flags/POLM/neutrality.png"
+    },
+    "POLPLC": {
+      "communism": "flags/POLPLC/communism.png",
+      "democratic": "flags/POLPLC/democratic.png",
+      "fascism": "flags/POLPLC/fascism.png",
+      "neutrality": "flags/POLPLC/neutrality.png"
+    },
+    "POLPLRC": {
+      "communism": "flags/POLPLRC/communism.png",
+      "democratic": "flags/POLPLRC/democratic.png",
+      "fascism": "flags/POLPLRC/fascism.png",
+      "neutrality": "flags/POLPLRC/neutrality.png"
+    },
+    "POLREV": {
+      "communism": "flags/POLREV/communism.png"
+    },
+    "POLS": {
+      "communism": "flags/POLS/communism.png",
+      "democratic": "flags/POLS/democratic.png",
+      "fascism": "flags/POLS/fascism.png",
+      "neutrality": "flags/POLS/neutrality.png"
+    },
+    "POL_reichskommissariat": {
+      "fascism": "flags/POL_reichskommissariat/fascism.png"
+    },
+    "POR": {
+      "communism": "flags/POR/communism.png",
+      "democratic": "flags/POR/democratic.png",
+      "fascism": "flags/POR/fascism.png",
+      "neutrality": "flags/POR/neutrality.png"
+    },
+    "POR_AZORES": {
+      "communism": "flags/POR_AZORES/communism.png",
+      "democratic": "flags/POR_AZORES/democratic.png",
+      "fascism": "flags/POR_AZORES/fascism.png",
+      "neutrality": "flags/POR_AZORES/neutrality.png"
+    },
+    "POR_empire": {
+      "fascism": "flags/POR_empire/fascism.png",
+      "neutrality": "flags/POR_empire/neutrality.png"
+    },
+    "PRB": {
+      "communism": "flags/PRB/communism.png",
+      "democratic": "flags/PRB/democratic.png",
+      "fascism": "flags/PRB/fascism.png",
+      "neutrality": "flags/PRB/neutrality.png"
+    },
+    "PRC": {
+      "communism": "flags/PRC/communism.png",
+      "democratic": "flags/PRC/democratic.png",
+      "fascism": "flags/PRC/fascism.png",
+      "neutrality": "flags/PRC/neutrality.png"
+    },
+    "PRC_GUANGXI": {
+      "default": "flags/PRC_GUANGXI/default.png"
+    },
+    "PRC_INNER_MONGOLIA": {
+      "default": "flags/PRC_INNER_MONGOLIA/default.png"
+    },
+    "PRC_JILIN": {
+      "default": "flags/PRC_JILIN/default.png"
+    },
+    "PRC_QINGHAI": {
+      "default": "flags/PRC_QINGHAI/default.png"
+    },
+    "PRC_SHAANXI": {
+      "default": "flags/PRC_SHAANXI/default.png"
+    },
+    "PRC_SHANXI": {
+      "default": "flags/PRC_SHANXI/default.png"
+    },
+    "PRC_TIBET": {
+      "default": "flags/PRC_TIBET/default.png"
+    },
+    "PRC_XINJIANG": {
+      "default": "flags/PRC_XINJIANG/default.png"
+    },
+    "PRC_YUNNAN": {
+      "default": "flags/PRC_YUNNAN/default.png"
+    },
+    "PRC_peoples_republic_of_china": {
+      "communism": "flags/PRC_peoples_republic_of_china/communism.png"
+    },
+    "PRS": {
+      "communism": "flags/PRS/communism.png",
+      "democratic": "flags/PRS/democratic.png",
+      "fascism": "flags/PRS/fascism.png",
+      "neutrality": "flags/PRS/neutrality.png"
+    },
+    "PRU": {
+      "communism": "flags/PRU/communism.png",
+      "democratic": "flags/PRU/democratic.png",
+      "fascism": "flags/PRU/fascism.png",
+      "neutrality": "flags/PRU/neutrality.png"
+    },
+    "PRU_EMP": {
+      "neutrality": "flags/PRU_EMP/neutrality.png"
+    },
+    "PRU_VR": {
+      "neutrality": "flags/PRU_VR/neutrality.png"
+    },
+    "PRU_amerindian": {
+      "communism": "flags/PRU_amerindian/communism.png",
+      "fascism": "flags/PRU_amerindian/fascism.png",
+      "neutrality": "flags/PRU_amerindian/neutrality.png"
+    },
+    "PRU_amerindian_reich": {
+      "neutrality": "flags/PRU_amerindian_reich/neutrality.png"
+    },
+    "PRU_imperial": {
+      "neutrality": "flags/PRU_imperial/neutrality.png"
+    },
+    "PUE": {
+      "communism": "flags/PUE/communism.png",
+      "democratic": "flags/PUE/democratic.png",
+      "fascism": "flags/PUE/fascism.png",
+      "neutrality": "flags/PUE/neutrality.png"
+    },
+    "QAT": {
+      "communism": "flags/QAT/communism.png",
+      "democratic": "flags/QAT/democratic.png",
+      "fascism": "flags/QAT/fascism.png",
+      "neutrality": "flags/QAT/neutrality.png"
+    },
+    "QIA": {
+      "default": "flags/QIA/default.png"
+    },
+    "QUE": {
+      "communism": "flags/QUE/communism.png",
+      "democratic": "flags/QUE/democratic.png",
+      "fascism": "flags/QUE/fascism.png",
+      "neutrality": "flags/QUE/neutrality.png"
+    },
+    "RAJ": {
+      "communism": "flags/RAJ/communism.png",
+      "democratic": "flags/RAJ/democratic.png",
+      "fascism": "flags/RAJ/fascism.png",
+      "neutrality": "flags/RAJ/neutrality.png"
+    },
+    "RAJ_AH": {
+      "default": "flags/RAJ_AH/default.png"
+    },
+    "RAJ_Dominion": {
+      "neutrality": "flags/RAJ_Dominion/neutrality.png"
+    },
+    "RAJ_ENG": {
+      "neutrality": "flags/RAJ_ENG/neutrality.png"
+    },
+    "RAJ_FRA": {
+      "default": "flags/RAJ_FRA/default.png"
+    },
+    "RAJ_POR": {
+      "default": "flags/RAJ_POR/default.png"
+    },
+    "RAJ_UK": {
+      "default": "flags/RAJ_UK/default.png"
+    },
+    "RCG": {
+      "communism": "flags/RCG/communism.png",
+      "democratic": "flags/RCG/democratic.png",
+      "fascism": "flags/RCG/fascism.png",
+      "neutrality": "flags/RCG/neutrality.png"
+    },
+    "RFPmck": {
+      "fascism": "flags/RFPmck/fascism.png"
+    },
+    "RGR": {
+      "communism": "flags/RGR/communism.png",
+      "democratic": "flags/RGR/democratic.png",
+      "fascism": "flags/RGR/fascism.png",
+      "neutrality": "flags/RGR/neutrality.png"
+    },
+    "ROM": {
+      "communism": "flags/ROM/communism.png",
+      "democratic": "flags/ROM/democratic.png",
+      "fascism": "flags/ROM/fascism.png",
+      "neutrality": "flags/ROM/neutrality.png"
+    },
+    "ROYAUSHUN": {
+      "communism": "flags/ROYAUSHUN/communism.png",
+      "democratic": "flags/ROYAUSHUN/democratic.png",
+      "fascism": "flags/ROYAUSHUN/fascism.png",
+      "neutrality": "flags/ROYAUSHUN/neutrality.png"
+    },
+    "RUT": {
+      "communism": "flags/RUT/communism.png",
+      "democratic": "flags/RUT/democratic.png",
+      "fascism": "flags/RUT/fascism.png",
+      "neutrality": "flags/RUT/neutrality.png"
+    },
+    "RUT2": {
+      "communism": "flags/RUT2/communism.png",
+      "democratic": "flags/RUT2/democratic.png",
+      "fascism": "flags/RUT2/fascism.png",
+      "neutrality": "flags/RUT2/neutrality.png"
+    },
+    "RUT2_GER": {
+      "fascism": "flags/RUT2_GER/fascism.png"
+    },
+    "RUT3": {
+      "fascism": "flags/RUT3/fascism.png"
+    },
+    "RWA": {
+      "communism": "flags/RWA/communism.png",
+      "democratic": "flags/RWA/democratic.png",
+      "fascism": "flags/RWA/fascism.png",
+      "neutrality": "flags/RWA/neutrality.png"
+    },
+    "SAA": {
+      "communism": "flags/SAA/communism.png",
+      "democratic": "flags/SAA/democratic.png",
+      "fascism": "flags/SAA/fascism.png",
+      "neutrality": "flags/SAA/neutrality.png"
+    },
+    "SAA_FRA": {
+      "democratic": "flags/SAA_FRA/democratic.png",
+      "neutrality": "flags/SAA_FRA/neutrality.png"
+    },
+    "SAD": {
+      "communism": "flags/SAD/communism.png",
+      "democratic": "flags/SAD/democratic.png",
+      "fascism": "flags/SAD/fascism.png",
+      "neutrality": "flags/SAD/neutrality.png"
+    },
+    "SAD_PIEDMONT": {
+      "communism": "flags/SAD_PIEDMONT/communism.png",
+      "democratic": "flags/SAD_PIEDMONT/democratic.png",
+      "fascism": "flags/SAD_PIEDMONT/fascism.png",
+      "neutrality": "flags/SAD_PIEDMONT/neutrality.png"
+    },
+    "SAF": {
+      "communism": "flags/SAF/communism.png",
+      "democratic": "flags/SAF/democratic.png",
+      "fascism": "flags/SAF/fascism.png",
+      "neutrality": "flags/SAF/neutrality.png"
+    },
+    "SAF_ENG": {
+      "communism": "flags/SAF_ENG/communism.png",
+      "democratic": "flags/SAF_ENG/democratic.png",
+      "fascism": "flags/SAF_ENG/fascism.png",
+      "neutrality": "flags/SAF_ENG/neutrality.png"
+    },
+    "SAM": {
+      "communism": "flags/SAM/communism.png",
+      "democratic": "flags/SAM/democratic.png",
+      "fascism": "flags/SAM/fascism.png",
+      "neutrality": "flags/SAM/neutrality.png"
+    },
+    "SAM_TWS": {
+      "default": "flags/SAM_TWS/default.png"
+    },
+    "SAN": {
+      "communism": "flags/SAN/communism.png",
+      "democratic": "flags/SAN/democratic.png",
+      "fascism": "flags/SAN/fascism.png",
+      "neutrality": "flags/SAN/neutrality.png"
+    },
+    "SAO": {
+      "communism": "flags/SAO/communism.png",
+      "democratic": "flags/SAO/democratic.png",
+      "fascism": "flags/SAO/fascism.png",
+      "neutrality": "flags/SAO/neutrality.png"
+    },
+    "SAR": {
+      "democratic": "flags/SAR/democratic.png",
+      "fascism": "flags/SAR/fascism.png",
+      "neutrality": "flags/SAR/neutrality.png"
+    },
+    "SAU": {
+      "communism": "flags/SAU/communism.png",
+      "democratic": "flags/SAU/democratic.png",
+      "fascism": "flags/SAU/fascism.png",
+      "neutrality": "flags/SAU/neutrality.png"
+    },
+    "SAX": {
+      "communism": "flags/SAX/communism.png",
+      "democratic": "flags/SAX/democratic.png",
+      "fascism": "flags/SAX/fascism.png",
+      "neutrality": "flags/SAX/neutrality.png"
+    },
+    "SCA": {
+      "communism": "flags/SCA/communism.png",
+      "democratic": "flags/SCA/democratic.png",
+      "fascism": "flags/SCA/fascism.png",
+      "neutrality": "flags/SCA/neutrality.png"
+    },
+    "SCA_SWE_UNIFIED": {
+      "communism": "flags/SCA_SWE_UNIFIED/communism.png",
+      "democratic": "flags/SCA_SWE_UNIFIED/democratic.png",
+      "fascism": "flags/SCA_SWE_UNIFIED/fascism.png",
+      "neutrality": "flags/SCA_SWE_UNIFIED/neutrality.png"
+    },
+    "SCC": {
+      "default": "flags/SCC/default.png"
+    },
+    "SCI": {
+      "communism": "flags/SCI/communism.png",
+      "democratic": "flags/SCI/democratic.png",
+      "fascism": "flags/SCI/fascism.png",
+      "neutrality": "flags/SCI/neutrality.png"
+    },
+    "SCO": {
+      "communism": "flags/SCO/communism.png",
+      "democratic": "flags/SCO/democratic.png",
+      "fascism": "flags/SCO/fascism.png",
+      "neutrality": "flags/SCO/neutrality.png"
+    },
+    "SCO_MONARCHIST": {
+      "default": "flags/SCO_MONARCHIST/default.png"
+    },
+    "SDC": {
+      "default": "flags/SDC/default.png"
+    },
+    "SDN": {
+      "communism": "flags/SDN/communism.png",
+      "democratic": "flags/SDN/democratic.png",
+      "fascism": "flags/SDN/fascism.png",
+      "neutrality": "flags/SDN/neutrality.png"
+    },
+    "SEN": {
+      "communism": "flags/SEN/communism.png",
+      "democratic": "flags/SEN/democratic.png",
+      "fascism": "flags/SEN/fascism.png",
+      "neutrality": "flags/SEN/neutrality.png"
+    },
+    "SEN_FRA": {
+      "default": "flags/SEN_FRA/default.png"
+    },
+    "SER": {
+      "communism": "flags/SER/communism.png",
+      "democratic": "flags/SER/democratic.png",
+      "fascism": "flags/SER/fascism.png",
+      "neutrality": "flags/SER/neutrality.png"
+    },
+    "SEY": {
+      "communism": "flags/SEY/communism.png",
+      "democratic": "flags/SEY/democratic.png",
+      "fascism": "flags/SEY/fascism.png",
+      "neutrality": "flags/SEY/neutrality.png"
+    },
+    "SHL": {
+      "communism": "flags/SHL/communism.png",
+      "democratic": "flags/SHL/democratic.png",
+      "fascism": "flags/SHL/fascism.png",
+      "neutrality": "flags/SHL/neutrality.png"
+    },
+    "SHX": {
+      "communism": "flags/SHX/communism.png",
+      "democratic": "flags/SHX/democratic.png",
+      "fascism": "flags/SHX/fascism.png",
+      "neutrality": "flags/SHX/neutrality.png"
+    },
+    "SIA": {
+      "communism": "flags/SIA/communism.png",
+      "democratic": "flags/SIA/democratic.png",
+      "fascism": "flags/SIA/fascism.png",
+      "neutrality": "flags/SIA/neutrality.png"
+    },
+    "SIC": {
+      "neutrality": "flags/SIC/neutrality.png"
+    },
+    "SIE": {
+      "communism": "flags/SIE/communism.png",
+      "democratic": "flags/SIE/democratic.png",
+      "fascism": "flags/SIE/fascism.png",
+      "neutrality": "flags/SIE/neutrality.png"
+    },
+    "SIK": {
+      "communism": "flags/SIK/communism.png",
+      "democratic": "flags/SIK/democratic.png",
+      "fascism": "flags/SIK/fascism.png",
+      "neutrality": "flags/SIK/neutrality.png"
+    },
+    "SIL": {
+      "fascism": "flags/SIL/fascism.png"
+    },
+    "SKK": {
+      "communism": "flags/SKK/communism.png",
+      "democratic": "flags/SKK/democratic.png",
+      "fascism": "flags/SKK/fascism.png",
+      "neutrality": "flags/SKK/neutrality.png"
+    },
+    "SLO": {
+      "communism": "flags/SLO/communism.png",
+      "democratic": "flags/SLO/democratic.png",
+      "fascism": "flags/SLO/fascism.png",
+      "neutrality": "flags/SLO/neutrality.png"
+    },
+    "SLV": {
+      "communism": "flags/SLV/communism.png",
+      "democratic": "flags/SLV/democratic.png",
+      "fascism": "flags/SLV/fascism.png",
+      "neutrality": "flags/SLV/neutrality.png"
+    },
+    "SMA": {
+      "communism": "flags/SMA/communism.png",
+      "democratic": "flags/SMA/democratic.png",
+      "fascism": "flags/SMA/fascism.png",
+      "neutrality": "flags/SMA/neutrality.png"
+    },
+    "SMI": {
+      "communism": "flags/SMI/communism.png",
+      "democratic": "flags/SMI/democratic.png",
+      "fascism": "flags/SMI/fascism.png",
+      "neutrality": "flags/SMI/neutrality.png"
+    },
+    "SMT": {
+      "default": "flags/SMT/default.png",
+      "communism": "flags/SMT/communism.png",
+      "fascism": "flags/SMT/fascism.png"
+    },
+    "SND": {
+      "neutrality": "flags/SND/neutrality.png"
+    },
+    "SNG": {
+      "default": "flags/SNG/default.png",
+      "communism": "flags/SNG/communism.png",
+      "fascism": "flags/SNG/fascism.png",
+      "neutrality": "flags/SNG/neutrality.png"
+    },
+    "SOAND": {
+      "communism": "flags/SOAND/communism.png"
+    },
+    "SOL": {
+      "communism": "flags/SOL/communism.png",
+      "democratic": "flags/SOL/democratic.png",
+      "fascism": "flags/SOL/fascism.png",
+      "neutrality": "flags/SOL/neutrality.png"
+    },
+    "SOL_ENG": {
+      "democratic": "flags/SOL_ENG/democratic.png",
+      "neutrality": "flags/SOL_ENG/neutrality.png"
+    },
+    "SOM": {
+      "communism": "flags/SOM/communism.png",
+      "democratic": "flags/SOM/democratic.png",
+      "fascism": "flags/SOM/fascism.png",
+      "neutrality": "flags/SOM/neutrality.png"
+    },
+    "SOV": {
+      "communism": "flags/SOV/communism.png",
+      "democratic": "flags/SOV/democratic.png",
+      "fascism": "flags/SOV/fascism.png",
+      "neutrality": "flags/SOV/neutrality.png"
+    },
+    "SOV_reichskommissariat": {
+      "fascism": "flags/SOV_reichskommissariat/fascism.png"
+    },
+    "SOV_russia": {
+      "communism": "flags/SOV_russia/communism.png"
+    },
+    "SPA": {
+      "communism": "flags/SPA/communism.png",
+      "democratic": "flags/SPA/democratic.png",
+      "fascism": "flags/SPA/fascism.png",
+      "neutrality": "flags/SPA/neutrality.png"
+    },
+    "SPA_directory": {
+      "fascism": "flags/SPA_directory/fascism.png",
+      "neutrality": "flags/SPA_directory/neutrality.png"
+    },
+    "SPA_spanish_empire": {
+      "fascism": "flags/SPA_spanish_empire/fascism.png"
+    },
+    "SPB": {
+      "communism": "flags/SPB/communism.png",
+      "democratic": "flags/SPB/democratic.png",
+      "fascism": "flags/SPB/fascism.png",
+      "neutrality": "flags/SPB/neutrality.png"
+    },
+    "SPB_kingdom": {
+      "neutrality": "flags/SPB_kingdom/neutrality.png"
+    },
+    "SPC": {
+      "communism": "flags/SPC/communism.png",
+      "democratic": "flags/SPC/democratic.png",
+      "fascism": "flags/SPC/fascism.png",
+      "neutrality": "flags/SPC/neutrality.png"
+    },
+    "SPC_global_defense_council": {
+      "neutrality": "flags/SPC_global_defense_council/neutrality.png"
+    },
+    "SPC_poum": {
+      "communism": "flags/SPC_poum/communism.png"
+    },
+    "SPC_regional_defense_council_of_iberia": {
+      "neutrality": "flags/SPC_regional_defense_council_of_iberia/neutrality.png"
+    },
+    "SPR": {
+      "communism": "flags/SPR/communism.png",
+      "democratic": "flags/SPR/democratic.png",
+      "fascism": "flags/SPR/fascism.png",
+      "neutrality": "flags/SPR/neutrality.png"
+    },
+    "SPR_Carlist": {
+      "neutrality": "flags/SPR_Carlist/neutrality.png"
+    },
+    "SPR_Juan": {
+      "democratic": "flags/SPR_Juan/democratic.png"
+    },
+    "SPR_POR_anarchism": {
+      "neutrality": "flags/SPR_POR_anarchism/neutrality.png"
+    },
+    "SPR_R56SPRNAT": {
+      "neutrality": "flags/SPR_R56SPRNAT/neutrality.png"
+    },
+    "SPR_anarchist_castille": {
+      "neutrality": "flags/SPR_anarchist_castille/neutrality.png"
+    },
+    "SPR_anarchist_spain": {
+      "neutrality": "flags/SPR_anarchist_spain/neutrality.png"
+    },
+    "SPR_carlist_castille": {
+      "neutrality": "flags/SPR_carlist_castille/neutrality.png"
+    },
+    "SPR_carlist_spain": {
+      "neutrality": "flags/SPR_carlist_spain/neutrality.png"
+    },
+    "SPR_castille": {
+      "communism": "flags/SPR_castille/communism.png",
+      "democratic": "flags/SPR_castille/democratic.png",
+      "fascism": "flags/SPR_castille/fascism.png",
+      "neutrality": "flags/SPR_castille/neutrality.png"
+    },
+    "SPR_nationalist_castille": {
+      "fascism": "flags/SPR_nationalist_castille/fascism.png",
+      "neutrality": "flags/SPR_nationalist_castille/neutrality.png"
+    },
+    "SPR_nationalist_spain": {
+      "fascism": "flags/SPR_nationalist_spain/fascism.png",
+      "neutrality": "flags/SPR_nationalist_spain/neutrality.png"
+    },
+    "SRL": {
+      "communism": "flags/SRL/communism.png",
+      "democratic": "flags/SRL/democratic.png",
+      "fascism": "flags/SRL/fascism.png",
+      "neutrality": "flags/SRL/neutrality.png"
+    },
+    "SRL_Dominion": {
+      "default": "flags/SRL_Dominion/default.png"
+    },
+    "SSU": {
+      "communism": "flags/SSU/communism.png",
+      "democratic": "flags/SSU/democratic.png",
+      "fascism": "flags/SSU/fascism.png",
+      "neutrality": "flags/SSU/neutrality.png"
+    },
+    "STK": {
+      "communism": "flags/STK/communism.png",
+      "democratic": "flags/STK/democratic.png",
+      "fascism": "flags/STK/fascism.png",
+      "neutrality": "flags/STK/neutrality.png"
+    },
+    "STL": {
+      "communism": "flags/STL/communism.png",
+      "democratic": "flags/STL/democratic.png",
+      "fascism": "flags/STL/fascism.png",
+      "neutrality": "flags/STL/neutrality.png"
+    },
+    "SUR": {
+      "communism": "flags/SUR/communism.png",
+      "democratic": "flags/SUR/democratic.png",
+      "fascism": "flags/SUR/fascism.png",
+      "neutrality": "flags/SUR/neutrality.png"
+    },
+    "SVG": {
+      "communism": "flags/SVG/communism.png",
+      "democratic": "flags/SVG/democratic.png",
+      "fascism": "flags/SVG/fascism.png",
+      "neutrality": "flags/SVG/neutrality.png"
+    },
+    "SWA": {
+      "communism": "flags/SWA/communism.png",
+      "democratic": "flags/SWA/democratic.png",
+      "fascism": "flags/SWA/fascism.png",
+      "neutrality": "flags/SWA/neutrality.png"
+    },
+    "SWA_ENG_subject": {
+      "default": "flags/SWA_ENG_subject/default.png",
+      "communism": "flags/SWA_ENG_subject/communism.png"
+    },
+    "SWE": {
+      "communism": "flags/SWE/communism.png",
+      "democratic": "flags/SWE/democratic.png",
+      "fascism": "flags/SWE/fascism.png",
+      "neutrality": "flags/SWE/neutrality.png"
+    },
+    "SWE_swedish_empire_cosmetic": {
+      "default": "flags/SWE_swedish_empire_cosmetic/default.png",
+      "communism": "flags/SWE_swedish_empire_cosmetic/communism.png"
+    },
+    "SWI": {
+      "communism": "flags/SWI/communism.png",
+      "democratic": "flags/SWI/democratic.png",
+      "fascism": "flags/SWI/fascism.png",
+      "neutrality": "flags/SWI/neutrality.png"
+    },
+    "SWI_alamannia": {
+      "democratic": "flags/SWI_alamannia/democratic.png",
+      "fascism": "flags/SWI_alamannia/fascism.png",
+      "neutrality": "flags/SWI_alamannia/neutrality.png"
+    },
+    "SWI_mori_union": {
+      "democratic": "flags/SWI_mori_union/democratic.png",
+      "fascism": "flags/SWI_mori_union/fascism.png",
+      "neutrality": "flags/SWI_mori_union/neutrality.png"
+    },
+    "SWI_old_confederacy": {
+      "democratic": "flags/SWI_old_confederacy/democratic.png",
+      "fascism": "flags/SWI_old_confederacy/fascism.png",
+      "neutrality": "flags/SWI_old_confederacy/neutrality.png"
+    },
+    "SYR": {
+      "communism": "flags/SYR/communism.png",
+      "democratic": "flags/SYR/democratic.png",
+      "fascism": "flags/SYR/fascism.png",
+      "neutrality": "flags/SYR/neutrality.png"
+    },
+    "SYR_UNIFIED": {
+      "communism": "flags/SYR_UNIFIED/communism.png",
+      "democratic": "flags/SYR_UNIFIED/democratic.png",
+      "fascism": "flags/SYR_UNIFIED/fascism.png",
+      "neutrality": "flags/SYR_UNIFIED/neutrality.png"
+    },
+    "SZK": {
+      "communism": "flags/SZK/communism.png",
+      "democratic": "flags/SZK/democratic.png",
+      "fascism": "flags/SZK/fascism.png",
+      "neutrality": "flags/SZK/neutrality.png"
+    },
+    "TAH": {
+      "communism": "flags/TAH/communism.png",
+      "democratic": "flags/TAH/democratic.png",
+      "fascism": "flags/TAH/fascism.png",
+      "neutrality": "flags/TAH/neutrality.png"
+    },
+    "TAH_FRA": {
+      "default": "flags/TAH_FRA/default.png"
+    },
+    "TAJ": {
+      "communism": "flags/TAJ/communism.png",
+      "democratic": "flags/TAJ/democratic.png",
+      "fascism": "flags/TAJ/fascism.png",
+      "neutrality": "flags/TAJ/neutrality.png"
+    },
+    "TAN": {
+      "communism": "flags/TAN/communism.png",
+      "democratic": "flags/TAN/democratic.png",
+      "fascism": "flags/TAN/fascism.png",
+      "neutrality": "flags/TAN/neutrality.png"
+    },
+    "TAN_1921": {
+      "communism": "flags/TAN_1921/communism.png"
+    },
+    "TAN_1941": {
+      "communism": "flags/TAN_1941/communism.png"
+    },
+    "TAN_1943": {
+      "communism": "flags/TAN_1943/communism.png"
+    },
+    "TAT": {
+      "communism": "flags/TAT/communism.png",
+      "democratic": "flags/TAT/democratic.png",
+      "fascism": "flags/TAT/fascism.png",
+      "neutrality": "flags/TAT/neutrality.png"
+    },
+    "TBE_third_bulgarian_empire": {
+      "communism": "flags/TBE_third_bulgarian_empire/communism.png",
+      "democratic": "flags/TBE_third_bulgarian_empire/democratic.png",
+      "fascism": "flags/TBE_third_bulgarian_empire/fascism.png",
+      "neutrality": "flags/TBE_third_bulgarian_empire/neutrality.png"
+    },
+    "TER": {
+      "communism": "flags/TER/communism.png",
+      "democratic": "flags/TER/democratic.png",
+      "fascism": "flags/TER/fascism.png",
+      "neutrality": "flags/TER/neutrality.png"
+    },
+    "TIB": {
+      "communism": "flags/TIB/communism.png",
+      "democratic": "flags/TIB/democratic.png",
+      "fascism": "flags/TIB/fascism.png",
+      "neutrality": "flags/TIB/neutrality.png"
+    },
+    "TML": {
+      "communism": "flags/TML/communism.png",
+      "democratic": "flags/TML/democratic.png",
+      "fascism": "flags/TML/fascism.png",
+      "neutrality": "flags/TML/neutrality.png"
+    },
+    "TML_INS": {
+      "default": "flags/TML_INS/default.png"
+    },
+    "TML_POR": {
+      "default": "flags/TML_POR/default.png"
+    },
+    "TMS": {
+      "communism": "flags/TMS/communism.png",
+      "democratic": "flags/TMS/democratic.png",
+      "fascism": "flags/TMS/fascism.png",
+      "neutrality": "flags/TMS/neutrality.png"
+    },
+    "TOG": {
+      "communism": "flags/TOG/communism.png",
+      "democratic": "flags/TOG/democratic.png",
+      "fascism": "flags/TOG/fascism.png",
+      "neutrality": "flags/TOG/neutrality.png"
+    },
+    "TOG_FRA": {
+      "default": "flags/TOG_FRA/default.png"
+    },
+    "TON": {
+      "communism": "flags/TON/communism.png",
+      "democratic": "flags/TON/democratic.png",
+      "fascism": "flags/TON/fascism.png",
+      "neutrality": "flags/TON/neutrality.png"
+    },
+    "TRA": {
+      "communism": "flags/TRA/communism.png",
+      "democratic": "flags/TRA/democratic.png",
+      "fascism": "flags/TRA/fascism.png",
+      "neutrality": "flags/TRA/neutrality.png"
+    },
+    "TRI": {
+      "communism": "flags/TRI/communism.png",
+      "democratic": "flags/TRI/democratic.png",
+      "fascism": "flags/TRI/fascism.png",
+      "neutrality": "flags/TRI/neutrality.png"
+    },
+    "TRI_caribbean_union": {
+      "default": "flags/TRI_caribbean_union/default.png",
+      "communism": "flags/TRI_caribbean_union/communism.png",
+      "fascism": "flags/TRI_caribbean_union/fascism.png"
+    },
+    "TRK_UNITED": {
+      "communism": "flags/TRK_UNITED/communism.png",
+      "democratic": "flags/TRK_UNITED/democratic.png",
+      "fascism": "flags/TRK_UNITED/fascism.png",
+      "neutrality": "flags/TRK_UNITED/neutrality.png"
+    },
+    "TUN": {
+      "communism": "flags/TUN/communism.png",
+      "democratic": "flags/TUN/democratic.png",
+      "fascism": "flags/TUN/fascism.png",
+      "neutrality": "flags/TUN/neutrality.png"
+    },
+    "TUR": {
+      "communism": "flags/TUR/communism.png",
+      "democratic": "flags/TUR/democratic.png",
+      "fascism": "flags/TUR/fascism.png",
+      "neutrality": "flags/TUR/neutrality.png"
+    },
+    "TUR_kemalist": {
+      "default": "flags/TUR_kemalist/default.png"
+    },
+    "TUV": {
+      "communism": "flags/TUV/communism.png",
+      "democratic": "flags/TUV/democratic.png",
+      "fascism": "flags/TUV/fascism.png",
+      "neutrality": "flags/TUV/neutrality.png"
+    },
+    "TXS": {
+      "communism": "flags/TXS/communism.png",
+      "democratic": "flags/TXS/democratic.png",
+      "fascism": "flags/TXS/fascism.png",
+      "neutrality": "flags/TXS/neutrality.png"
+    },
+    "TZA": {
+      "communism": "flags/TZA/communism.png",
+      "democratic": "flags/TZA/democratic.png",
+      "neutrality": "flags/TZA/neutrality.png"
+    },
+    "TZN": {
+      "communism": "flags/TZN/communism.png",
+      "democratic": "flags/TZN/democratic.png",
+      "fascism": "flags/TZN/fascism.png",
+      "neutrality": "flags/TZN/neutrality.png"
+    },
+    "UAE": {
+      "communism": "flags/UAE/communism.png",
+      "democratic": "flags/UAE/democratic.png",
+      "fascism": "flags/UAE/fascism.png",
+      "neutrality": "flags/UAE/neutrality.png"
+    },
+    "UBF_united_balkan_federation": {
+      "communism": "flags/UBF_united_balkan_federation/communism.png",
+      "democratic": "flags/UBF_united_balkan_federation/democratic.png",
+      "fascism": "flags/UBF_united_balkan_federation/fascism.png",
+      "neutrality": "flags/UBF_united_balkan_federation/neutrality.png"
+    },
+    "UFC": {
+      "democratic": "flags/UFC/democratic.png",
+      "fascism": "flags/UFC/fascism.png",
+      "neutrality": "flags/UFC/neutrality.png"
+    },
+    "UGA": {
+      "communism": "flags/UGA/communism.png",
+      "democratic": "flags/UGA/democratic.png",
+      "fascism": "flags/UGA/fascism.png",
+      "neutrality": "flags/UGA/neutrality.png"
+    },
+    "UKR": {
+      "communism": "flags/UKR/communism.png",
+      "democratic": "flags/UKR/democratic.png",
+      "fascism": "flags/UKR/fascism.png",
+      "neutrality": "flags/UKR/neutrality.png"
+    },
+    "UKR_GER": {
+      "fascism": "flags/UKR_GER/fascism.png"
+    },
+    "UKR_reichskommissariat": {
+      "fascism": "flags/UKR_reichskommissariat/fascism.png"
+    },
+    "UKSP": {
+      "communism": "flags/UKSP/communism.png",
+      "democratic": "flags/UKSP/democratic.png",
+      "fascism": "flags/UKSP/fascism.png",
+      "neutrality": "flags/UKSP/neutrality.png"
+    },
+    "URG": {
+      "communism": "flags/URG/communism.png",
+      "democratic": "flags/URG/democratic.png",
+      "fascism": "flags/URG/fascism.png",
+      "neutrality": "flags/URG/neutrality.png"
+    },
+    "USA": {
+      "communism": "flags/USA/communism.png",
+      "democratic": "flags/USA/democratic.png",
+      "fascism": "flags/USA/fascism.png",
+      "neutrality": "flags/USA/neutrality.png"
+    },
+    "USA_49": {
+      "communism": "flags/USA_49/communism.png",
+      "democratic": "flags/USA_49/democratic.png",
+      "fascism": "flags/USA_49/fascism.png",
+      "neutrality": "flags/USA_49/neutrality.png"
+    },
+    "USA_50": {
+      "communism": "flags/USA_50/communism.png",
+      "democratic": "flags/USA_50/democratic.png",
+      "fascism": "flags/USA_50/fascism.png",
+      "neutrality": "flags/USA_50/neutrality.png"
+    },
+    "USA_51": {
+      "communism": "flags/USA_51/communism.png",
+      "democratic": "flags/USA_51/democratic.png",
+      "fascism": "flags/USA_51/fascism.png",
+      "neutrality": "flags/USA_51/neutrality.png"
+    },
+    "USA_CSA": {
+      "default": "flags/USA_CSA/default.png",
+      "communism": "flags/USA_CSA/communism.png",
+      "democratic": "flags/USA_CSA/democratic.png",
+      "fascism": "flags/USA_CSA/fascism.png"
+    },
+    "USA_REBEL": {
+      "default": "flags/USA_REBEL/default.png"
+    },
+    "USA_UK": {
+      "fascism": "flags/USA_UK/fascism.png",
+      "neutrality": "flags/USA_UK/neutrality.png"
+    },
+    "USA_wallis_simpson": {
+      "neutrality": "flags/USA_wallis_simpson/neutrality.png"
+    },
+    "USA_washington": {
+      "fascism": "flags/USA_washington/fascism.png"
+    },
+    "USB": {
+      "communism": "flags/USB/communism.png",
+      "democratic": "flags/USB/democratic.png",
+      "fascism": "flags/USB/fascism.png",
+      "neutrality": "flags/USB/neutrality.png"
+    },
+    "UZB": {
+      "communism": "flags/UZB/communism.png",
+      "democratic": "flags/UZB/democratic.png",
+      "fascism": "flags/UZB/fascism.png",
+      "neutrality": "flags/UZB/neutrality.png"
+    },
+    "VAN": {
+      "communism": "flags/VAN/communism.png",
+      "democratic": "flags/VAN/democratic.png",
+      "fascism": "flags/VAN/fascism.png",
+      "neutrality": "flags/VAN/neutrality.png"
+    },
+    "VCW": {
+      "communism": "flags/VCW/communism.png",
+      "democratic": "flags/VCW/democratic.png",
+      "fascism": "flags/VCW/fascism.png",
+      "neutrality": "flags/VCW/neutrality.png"
+    },
+    "VEN": {
+      "communism": "flags/VEN/communism.png",
+      "democratic": "flags/VEN/democratic.png",
+      "fascism": "flags/VEN/fascism.png",
+      "neutrality": "flags/VEN/neutrality.png"
+    },
+    "VIC": {
+      "communism": "flags/VIC/communism.png",
+      "democratic": "flags/VIC/democratic.png",
+      "fascism": "flags/VIC/fascism.png",
+      "neutrality": "flags/VIC/neutrality.png"
+    },
+    "VIN": {
+      "communism": "flags/VIN/communism.png",
+      "democratic": "flags/VIN/democratic.png",
+      "fascism": "flags/VIN/fascism.png",
+      "neutrality": "flags/VIN/neutrality.png"
+    },
+    "VINLaLutte": {
+      "communism": "flags/VINLaLutte/communism.png"
+    },
+    "VIN_FRA": {
+      "democratic": "flags/VIN_FRA/democratic.png",
+      "fascism": "flags/VIN_FRA/fascism.png",
+      "neutrality": "flags/VIN_FRA/neutrality.png"
+    },
+    "VLA": {
+      "communism": "flags/VLA/communism.png",
+      "democratic": "flags/VLA/democratic.png",
+      "neutrality": "flags/VLA/neutrality.png"
+    },
+    "VLA_JAP": {
+      "democratic": "flags/VLA_JAP/democratic.png",
+      "fascism": "flags/VLA_JAP/fascism.png",
+      "neutrality": "flags/VLA_JAP/neutrality.png"
+    },
+    "VNZ": {
+      "communism": "flags/VNZ/communism.png",
+      "democratic": "flags/VNZ/democratic.png",
+      "fascism": "flags/VNZ/fascism.png",
+      "neutrality": "flags/VNZ/neutrality.png"
+    },
+    "VOL": {
+      "communism": "flags/VOL/communism.png",
+      "democratic": "flags/VOL/democratic.png",
+      "fascism": "flags/VOL/fascism.png",
+      "neutrality": "flags/VOL/neutrality.png"
+    },
+    "WAF": {
+      "communism": "flags/WAF/communism.png",
+      "democratic": "flags/WAF/democratic.png",
+      "fascism": "flags/WAF/fascism.png",
+      "neutrality": "flags/WAF/neutrality.png"
+    },
+    "WAU_UNITED": {
+      "default": "flags/WAU_UNITED/default.png",
+      "communism": "flags/WAU_UNITED/communism.png",
+      "fascism": "flags/WAU_UNITED/fascism.png"
+    },
+    "WES": {
+      "communism": "flags/WES/communism.png",
+      "democratic": "flags/WES/democratic.png",
+      "fascism": "flags/WES/fascism.png",
+      "neutrality": "flags/WES/neutrality.png"
+    },
+    "WGR": {
+      "communism": "flags/WGR/communism.png",
+      "democratic": "flags/WGR/democratic.png",
+      "fascism": "flags/WGR/fascism.png",
+      "neutrality": "flags/WGR/neutrality.png"
+    },
+    "WHY": {
+      "communism": "flags/WHY/communism.png",
+      "democratic": "flags/WHY/democratic.png",
+      "fascism": "flags/WHY/fascism.png",
+      "neutrality": "flags/WHY/neutrality.png"
+    },
+    "WLL": {
+      "communism": "flags/WLL/communism.png",
+      "democratic": "flags/WLL/democratic.png",
+      "fascism": "flags/WLL/fascism.png",
+      "neutrality": "flags/WLL/neutrality.png"
+    },
+    "WLS": {
+      "communism": "flags/WLS/communism.png",
+      "democratic": "flags/WLS/democratic.png",
+      "fascism": "flags/WLS/fascism.png",
+      "neutrality": "flags/WLS/neutrality.png"
+    },
+    "WPG": {
+      "communism": "flags/WPG/communism.png",
+      "democratic": "flags/WPG/democratic.png",
+      "fascism": "flags/WPG/fascism.png",
+      "neutrality": "flags/WPG/neutrality.png"
+    },
+    "WPG_HOL": {
+      "default": "flags/WPG_HOL/default.png",
+      "fascism": "flags/WPG_HOL/fascism.png"
+    },
+    "WUR": {
+      "communism": "flags/WUR/communism.png",
+      "democratic": "flags/WUR/democratic.png",
+      "fascism": "flags/WUR/fascism.png",
+      "neutrality": "flags/WUR/neutrality.png"
+    },
+    "XIA": {
+      "default": "flags/XIA/default.png"
+    },
+    "XIC": {
+      "neutrality": "flags/XIC/neutrality.png"
+    },
+    "XSM": {
+      "communism": "flags/XSM/communism.png",
+      "democratic": "flags/XSM/democratic.png",
+      "fascism": "flags/XSM/fascism.png",
+      "neutrality": "flags/XSM/neutrality.png"
+    },
+    "YEM": {
+      "communism": "flags/YEM/communism.png",
+      "democratic": "flags/YEM/democratic.png",
+      "fascism": "flags/YEM/fascism.png",
+      "neutrality": "flags/YEM/neutrality.png"
+    },
+    "YHM": {
+      "default": "flags/YHM/default.png"
+    },
+    "YUG": {
+      "communism": "flags/YUG/communism.png",
+      "democratic": "flags/YUG/democratic.png",
+      "fascism": "flags/YUG/fascism.png",
+      "neutrality": "flags/YUG/neutrality.png"
+    },
+    "YUN": {
+      "communism": "flags/YUN/communism.png",
+      "democratic": "flags/YUN/democratic.png",
+      "fascism": "flags/YUN/fascism.png",
+      "neutrality": "flags/YUN/neutrality.png"
+    },
+    "YUT": {
+      "default": "flags/YUT/default.png"
+    },
+    "ZAM": {
+      "communism": "flags/ZAM/communism.png",
+      "democratic": "flags/ZAM/democratic.png",
+      "fascism": "flags/ZAM/fascism.png",
+      "neutrality": "flags/ZAM/neutrality.png"
+    },
+    "ZAN": {
+      "communism": "flags/ZAN/communism.png",
+      "democratic": "flags/ZAN/democratic.png",
+      "fascism": "flags/ZAN/fascism.png",
+      "neutrality": "flags/ZAN/neutrality.png"
+    },
+    "ZIM": {
+      "communism": "flags/ZIM/communism.png",
+      "democratic": "flags/ZIM/democratic.png",
+      "fascism": "flags/ZIM/fascism.png",
+      "neutrality": "flags/ZIM/neutrality.png"
+    },
+    "ZIM_ENG": {
+      "default": "flags/ZIM_ENG/default.png",
+      "communism": "flags/ZIM_ENG/communism.png"
+    },
+    "ZXL": {
+      "default": "flags/ZXL/default.png"
+    },
+    "ara_unified": {
+      "communism": "flags/ara_unified/communism.png",
+      "democratic": "flags/ara_unified/democratic.png",
+      "fascism": "flags/ara_unified/fascism.png",
+      "neutrality": "flags/ara_unified/neutrality.png"
+    },
+    "bal_unified": {
+      "communism": "flags/bal_unified/communism.png",
+      "democratic": "flags/bal_unified/democratic.png",
+      "fascism": "flags/bal_unified/fascism.png",
+      "neutrality": "flags/bal_unified/neutrality.png"
+    },
+    "byz_unified": {
+      "communism": "flags/byz_unified/communism.png",
+      "democratic": "flags/byz_unified/democratic.png",
+      "fascism": "flags/byz_unified/fascism.png",
+      "neutrality": "flags/byz_unified/neutrality.png"
+    },
+    "dalmatia": {
+      "communism": "flags/dalmatia/communism.png",
+      "democratic": "flags/dalmatia/democratic.png",
+      "fascism": "flags/dalmatia/fascism.png",
+      "neutrality": "flags/dalmatia/neutrality.png"
+    },
+    "eur_unified": {
+      "communism": "flags/eur_unified/communism.png",
+      "democratic": "flags/eur_unified/democratic.png",
+      "fascism": "flags/eur_unified/fascism.png",
+      "neutrality": "flags/eur_unified/neutrality.png"
+    },
+    "gbl_cosmetic": {
+      "communism": "flags/gbl_cosmetic/communism.png",
+      "democratic": "flags/gbl_cosmetic/democratic.png",
+      "fascism": "flags/gbl_cosmetic/fascism.png",
+      "neutrality": "flags/gbl_cosmetic/neutrality.png"
+    },
+    "gco_unified": {
+      "communism": "flags/gco_unified/communism.png",
+      "democratic": "flags/gco_unified/democratic.png",
+      "fascism": "flags/gco_unified/fascism.png",
+      "neutrality": "flags/gco_unified/neutrality.png"
+    },
+    "gre_greater_greece": {
+      "communism": "flags/gre_greater_greece/communism.png",
+      "democratic": "flags/gre_greater_greece/democratic.png",
+      "fascism": "flags/gre_greater_greece/fascism.png",
+      "neutrality": "flags/gre_greater_greece/neutrality.png"
+    },
+    "his_unified": {
+      "communism": "flags/his_unified/communism.png",
+      "democratic": "flags/his_unified/democratic.png",
+      "fascism": "flags/his_unified/fascism.png",
+      "neutrality": "flags/his_unified/neutrality.png"
+    },
+    "his_unified_pru": {
+      "communism": "flags/his_unified_pru/communism.png",
+      "democratic": "flags/his_unified_pru/democratic.png",
+      "fascism": "flags/his_unified_pru/fascism.png",
+      "neutrality": "flags/his_unified_pru/neutrality.png"
+    },
+    "hre_unified": {
+      "communism": "flags/hre_unified/communism.png",
+      "democratic": "flags/hre_unified/democratic.png",
+      "fascism": "flags/hre_unified/fascism.png",
+      "neutrality": "flags/hre_unified/neutrality.png"
+    },
+    "man_restored": {
+      "default": "flags/man_restored/default.png",
+      "communism": "flags/man_restored/communism.png"
+    },
+    "mut_unified": {
+      "communism": "flags/mut_unified/communism.png",
+      "democratic": "flags/mut_unified/democratic.png",
+      "fascism": "flags/mut_unified/fascism.png",
+      "neutrality": "flags/mut_unified/neutrality.png"
+    },
+    "ndc_unified": {
+      "communism": "flags/ndc_unified/communism.png",
+      "democratic": "flags/ndc_unified/democratic.png",
+      "fascism": "flags/ndc_unified/fascism.png",
+      "neutrality": "flags/ndc_unified/neutrality.png"
+    },
+    "ott_unified": {
+      "communism": "flags/ott_unified/communism.png",
+      "democratic": "flags/ott_unified/democratic.png",
+      "fascism": "flags/ott_unified/fascism.png",
+      "neutrality": "flags/ott_unified/neutrality.png"
+    },
+    "per_unified": {
+      "communism": "flags/per_unified/communism.png",
+      "democratic": "flags/per_unified/democratic.png",
+      "fascism": "flags/per_unified/fascism.png",
+      "neutrality": "flags/per_unified/neutrality.png"
+    },
+    "plc_unified": {
+      "communism": "flags/plc_unified/communism.png",
+      "democratic": "flags/plc_unified/democratic.png",
+      "fascism": "flags/plc_unified/fascism.png",
+      "neutrality": "flags/plc_unified/neutrality.png"
+    },
+    "qing_dynasty": {
+      "default": "flags/qing_dynasty/default.png"
+    },
+    "r56_sinkiang_ma": {
+      "neutrality": "flags/r56_sinkiang_ma/neutrality.png"
+    },
+    "r56_united_ma_clique_tag": {
+      "neutrality": "flags/r56_united_ma_clique_tag/neutrality.png"
+    },
+    "rat_unified": {
+      "communism": "flags/rat_unified/communism.png",
+      "democratic": "flags/rat_unified/democratic.png",
+      "fascism": "flags/rat_unified/fascism.png",
+      "neutrality": "flags/rat_unified/neutrality.png"
+    },
+    "sca_unified": {
+      "communism": "flags/sca_unified/communism.png",
+      "democratic": "flags/sca_unified/democratic.png",
+      "fascism": "flags/sca_unified/fascism.png",
+      "neutrality": "flags/sca_unified/neutrality.png"
+    },
+    "spqr_unified": {
+      "communism": "flags/spqr_unified/communism.png",
+      "democratic": "flags/spqr_unified/democratic.png",
+      "fascism": "flags/spqr_unified/fascism.png",
+      "neutrality": "flags/spqr_unified/neutrality.png"
+    },
+    "trn": {
+      "communism": "flags/trn/communism.png",
+      "democratic": "flags/trn/democratic.png"
+    },
+    "united_polynesia": {
+      "communism": "flags/united_polynesia/communism.png",
+      "democratic": "flags/united_polynesia/democratic.png",
+      "fascism": "flags/united_polynesia/fascism.png",
+      "neutrality": "flags/united_polynesia/neutrality.png"
+    },
+    "unl_unified": {
+      "communism": "flags/unl_unified/communism.png",
+      "democratic": "flags/unl_unified/democratic.png",
+      "fascism": "flags/unl_unified/fascism.png",
+      "neutrality": "flags/unl_unified/neutrality.png"
+    },
+    "usc_unified": {
+      "communism": "flags/usc_unified/communism.png",
+      "democratic": "flags/usc_unified/democratic.png",
+      "fascism": "flags/usc_unified/fascism.png",
+      "neutrality": "flags/usc_unified/neutrality.png"
+    },
+    "vojvodina": {
+      "communism": "flags/vojvodina/communism.png",
+      "democratic": "flags/vojvodina/democratic.png",
+      "fascism": "flags/vojvodina/fascism.png",
+      "neutrality": "flags/vojvodina/neutrality.png"
     }
   }
 }
