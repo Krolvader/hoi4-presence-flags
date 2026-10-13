@@ -3679,6 +3679,11 @@
       "fascism": "active_flags/gxc__2ce3179444/fascism.png",
       "neutrality": "active_flags/gxc__2ce3179444/neutrality.png"
     },
+    "GXC_spac": {
+      "democratic": "active_flags/gxc_spac__6af54f9577/democratic.png",
+      "fascism": "active_flags/gxc_spac__6af54f9577/fascism.png",
+      "neutrality": "active_flags/gxc_spac__6af54f9577/neutrality.png"
+    },
     "GYA": {
       "communism": "active_flags/gya__66273d7556/communism.png",
       "democratic": "active_flags/gya__66273d7556/democratic.png",
@@ -4888,6 +4893,12 @@
       "democratic": "active_flags/mck__49eaafbbd5/democratic.png",
       "fascism": "active_flags/mck__49eaafbbd5/fascism.png",
       "neutrality": "active_flags/mck__49eaafbbd5/neutrality.png"
+    },
+    "MCR": {
+      "communism": "active_flags/mcr__d6b206585b/communism.png",
+      "democratic": "active_flags/mcr__d6b206585b/democratic.png",
+      "fascism": "active_flags/mcr__d6b206585b/fascism.png",
+      "neutrality": "active_flags/mcr__d6b206585b/neutrality.png"
     },
     "MDA": {
       "communism": "active_flags/mda__5ae39936c6/communism.png",
@@ -7333,6 +7344,12 @@
       "democratic": "active_flags/tig__47939faf8c/democratic.png",
       "fascism": "active_flags/tig__47939faf8c/fascism.png",
       "neutrality": "active_flags/tig__47939faf8c/neutrality.png"
+    },
+    "TIM": {
+      "communism": "active_flags/tim__6ea5020263/communism.png",
+      "democratic": "active_flags/tim__6ea5020263/democratic.png",
+      "fascism": "active_flags/tim__6ea5020263/fascism.png",
+      "neutrality": "active_flags/tim__6ea5020263/neutrality.png"
     },
     "TJK": {
       "communism": "active_flags/tjk__094d883e8f/communism.png",
